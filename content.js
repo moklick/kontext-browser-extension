@@ -6,24 +6,19 @@ var data = [{
   ]
 }];
 
-
-// add regex expressions to data
-data = data.map(function(d) {
-  d.regex = new RegExp(d.name, 'g');
-  return d;
-});
-
 extendText();
 
 
 
 // extend text content with extension sentences
 function extendText() {
-  findTextNodes(document.body).forEach(function(e) {
-    data.forEach(function(d) {
-      var randomText = d.texts[~~(d.texts.length * Math.random())];
-      // TODO: check if it's the end of the sentence
-      e.textContent = e.textContent.replace(d.regex, d.name + ', ' + randomText + ', ');
+  findTextNodes(document.body).forEach(function (node) {
+    data.forEach(function (date) {
+      var parts = node.textContent.split(date.name);
+      for (var i = 1; i < parts.length; i++) {
+        parts.splice(i, 0, date.name + ', ' + date.texts[Math.floor(date.texts.length * Math.random())]);
+      }
+      node.textContent = parts.join('')
     });
   });
 }
