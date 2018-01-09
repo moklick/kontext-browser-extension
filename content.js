@@ -13,9 +13,9 @@ function extendText() {
   findTextNodes(document.body).forEach(function(node) {
     data.forEach(function(item) {
       var parts = node.textContent.split(getNameRegex(item.name));
+
       for (var i = parts.length - 1; i > 0; i--) {
-        var isEndOfSentence = /^\s*[^a-z 0-9]/i.test(parts[i]);
-        console.log(parts[i], isEndOfSentence);
+        var isEndOfSentence = /^\s*[^a-z 0-9]/i.test(parts[i]) || parts[i] === '';
         parts.splice(i, 0, getNewString(item, isEndOfSentence));
       }
       node.textContent = parts.join('');
