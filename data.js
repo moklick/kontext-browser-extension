@@ -42,7 +42,7 @@ var data = [
     'src': ['https://twitter.com/renatekuenast/status/685743903442624512?lang=de']
   },
   {
-    'forename': 'Andreas',
+    'forename': 'Manfred',
     'name': 'Weber',
     'text': ['der von der \"finalen Lösung der Flüchtlingsfrage\" gesprochen hat'],
     'src': ['http://www.spiegel.de/politik/deutschland/manfred-weber-fordert-die-finale-loesung-der-fluechtlingsfrage-a-1186493.html']
