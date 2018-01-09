@@ -20,7 +20,7 @@ var data = [
   {
     'forename': 'Jörg',
     'name': 'Meuthen',
-    'text': ['der von einem \'links-rot-grün verseuchten 68er-Deutschland\' spricht'],
+    'text': ['der von einem \"links-rot-grün verseuchten 68er-Deutschland\" spricht'],
     'src': ['https://www.stuttgarter-nachrichten.de/inhalt.bundesparteitag-in-stuttgart-afd-will-den-bundespraesidenten-stellen.a4c235d3-4b5e-44fe-9bea-24f2befa986c.html']
   },
   {
@@ -44,7 +44,7 @@ var data = [
   {
     'forename': 'Andreas',
     'name': 'Weber',
-    'text': ['der von der \'finalen Lösung der Flüchtlingsfrage\' gesprochen hat'],
+    'text': ['der von der \"finalen Lösung der Flüchtlingsfrage\" gesprochen hat'],
     'src': ['http://www.spiegel.de/politik/deutschland/manfred-weber-fordert-die-finale-loesung-der-fluechtlingsfrage-a-1186493.html']
   },
   {
@@ -62,19 +62,19 @@ var data = [
   {
     'forename': 'Kay',
     'name': 'Nerstheimer',
-    'text': ['der Homosexuelle als \'degenierte Spezies\' bezeichnet'],
+    'text': ['der Homosexuelle als \"degenierte Spezies\" bezeichnet'],
     'src': ['https://www.neues-deutschland.de/artikel/1070234.afd-im-abgeordnetenhaus-verschwoerung-und-hass.html']
   },
   {
     'forename': 'Georg',
     'name': 'Pazderski',
-    'text': ['der vom \'Volkssturm der Argumente\' spricht'],
+    'text': ['der vom \"Volkssturm der Argumente\" spricht'],
     'src': ['https://www.neues-deutschland.de/artikel/1070234.afd-im-abgeordnetenhaus-verschwoerung-und-hass.html']
   },
   {
     'forename': 'Markus',
     'name': 'Frohnmaier',
-    'text': ['der \'volksfeindliche Parteien\' aus Deutschland \'heraustreiben will'],
+    'text': ['der \"volksfeindliche Parteien\" aus Deutschland \"heraustreiben will\"'],
     'src': ['http://meedia.de/2017/05/10/zitate-streit-afd-politiker-markus-frohnmaier-verliert-vor-gericht-gegen-ulmer-lokal-portal/']
   },
   {
@@ -86,13 +86,13 @@ var data = [
   {
     'forename': 'Wilhelm',
     'name': 'von Gottberg',
-    'text': ['der den Holocaus als \'Mittel zur Kriminalisierung der Deutschen\' bezeichnet'],
+    'text': ['der den Holocaus als \"Mittel zur Kriminalisierung der Deutschen\" bezeichnet'],
     'src': ['http://www.zeit.de/politik/deutschland/2017-09/afd-kandidaten-bundestagswahl-abgeordnete']
   },
   {
     'forename': 'Stefan',
     'name': 'Keuter',
-    'text': ['der auf Pegida-Demos \'Lügenpresse\' skandiert hat'],
+    'text': ['der auf Pegida-Demos \"Lügenpresse\" skandiert hat'],
     'src': ['http://www.tagesspiegel.de/politik/neue-abgeordnete-das-sind-die-radikalen-in-der-afd-fraktion/20361302.html']
   },
   {
