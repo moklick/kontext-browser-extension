@@ -1,28 +1,21 @@
-var data = [
-  {
-    name: 'Test',
-    texts: ['der getestet wird', 'der weiterhin getestet wird']
-  }
-];
-
 extendText();
 
 function getNameRegex(name) {
-  return new RegExp('\b' + name + '\b');
+  return new RegExp(name, 'g');
 }
 
-function getNewString(date, isEndOfSentence) {
-  return date.name + ', ' + date.texts[Math.floor(date.texts.length * Math.random())] + (isEndOfSentence ? '' : ',');
+function getNewString(item, isEndOfSentence) {
+  return item.name + ', ' + item.texts[Math.floor(item.texts.length * Math.random())] + (isEndOfSentence ? '' : ',');
 }
 
 // extend text content with extension sentences
 function extendText() {
   findTextNodes(document.body).forEach(function(node) {
-    data.forEach(function(date) {
-      var parts = node.textContent.split(getNameRegex(date.name));
+    data.forEach(function(item) {
+      var parts = node.textContent.split(getNameRegex(item.name));
       for (var i = parts.length - 1; i > 0; i--) {
         var isEndOfSentence = /\s*[^a-z 0-9]/i.test(parts[i]);
-        parts.splice(i, 0, getNewString(date, isEndOfSentence));
+        parts.splice(i, 0, getNewString(item, isEndOfSentence));
       }
       node.textContent = parts.join('');
     });

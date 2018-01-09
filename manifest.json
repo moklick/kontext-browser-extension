@@ -1,7 +1,6 @@
 {
   "manifest_version": 2,
-
-  "name": "poli name ext",
+  "name": "name context extension",
   "description": "description.",
   "version": "1.0",
   "permissions": [
@@ -10,7 +9,7 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["content.js"]
+      "js": ["data.js", "content.js"]
     }
   ]
 }
