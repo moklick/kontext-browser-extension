@@ -21,7 +21,7 @@ function extendText() {
     data.forEach(function(date) {
       var parts = node.textContent.split(getNameRegex(date.name));
       for (var i = 1; i < parts.length; i++) {
-        var inSentence = parts.splice(i, 0, getNewString(date));
+        parts.splice(i, 0, getNewString(date));
       }
       node.textContent = parts.join('');
     });
