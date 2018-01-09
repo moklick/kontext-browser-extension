@@ -11,8 +11,8 @@ function getNameRegex(name) {
   return new RegExp('\b' + name + '\b');
 }
 
-function getNewString(date) {
-  return date.name + ', ' + date.texts[Math.floor(date.texts.length * Math.random())];
+function getNewString(date, isEndOfSentence) {
+  return date.name + ', ' + date.texts[Math.floor(date.texts.length * Math.random())] + (isEndOfSentence ? '' : ',');
 }
 
 // extend text content with extension sentences
@@ -20,8 +20,9 @@ function extendText() {
   findTextNodes(document.body).forEach(function(node) {
     data.forEach(function(date) {
       var parts = node.textContent.split(getNameRegex(date.name));
-      for (var i = 1; i < parts.length; i++) {
-        parts.splice(i, 0, getNewString(date));
+      for (var i = parts.length - 1; i > 0; i--) {
+        var isEndOfSentence = /\s*[^a-z 0-9]/i.test(parts[i]);
+        parts.splice(i, 0, getNewString(date, isEndOfSentence));
       }
       node.textContent = parts.join('');
     });
