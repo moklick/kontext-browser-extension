@@ -2,7 +2,7 @@ var data = [
   {
     'forename': 'Björn',
     'name': 'Höcke',
-    'text': ['der in Nazizeitschaften publiziert hat'],
+    'text': ['der in Nazizeitschriften publiziert hat'],
     'src': ['https://de.wikipedia.org/wiki/Bj%C3%B6rn_H%C3%B6cke#Vermutete_Autorschaft_in_Zeitschriften_des_NPD-Umfelds']
   },
   {
