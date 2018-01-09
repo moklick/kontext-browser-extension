@@ -5,7 +5,7 @@ function getNameRegex(name) {
 }
 
 function getNewString(item, isEndOfSentence) {
-  return item.name + ', ' + item.texts[Math.floor(item.texts.length * Math.random())] + (isEndOfSentence ? '' : ',');
+  return item.name + ', ' + item.text[Math.floor(item.text.length * Math.random())] + (isEndOfSentence ? '' : ',');
 }
 
 // extend text content with extension sentences
