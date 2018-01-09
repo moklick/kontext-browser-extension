@@ -1,5 +1,7 @@
 # Name Context Browser Extension
 
+Browser extension that adds context to certain German politicians.
+
 ## Run
 
 1. Download or clone repository
