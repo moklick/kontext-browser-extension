@@ -11,6 +11,7 @@ function getNewString(item, isEndOfSentence) {
 // extend text content with extension sentences
 function extendText() {
   findTextNodes(document.body).forEach(function(node) {
+    node.textContent = node.textContent.replace(/Björn Höcke/g, 'Bernd Höcke');
     data.forEach(function(item) {
       var parts = node.textContent.split(getNameRegex(item.name));
 

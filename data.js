@@ -127,7 +127,7 @@ var data = [
   },
   {
     'forename': 'Doris',
-    'name': '',
+    'name': 'von Sayn-Wittgenstein',
     'text': ['die im Vorstand eines Reichsbürger-Vereins war'],
     'src': ['http://haz.de/Nachrichten/Politik/Deutschland-Welt/AfD-Fuerstin-hat-Vergangenheit-in-Reichsbuerger-Szene']
   },
