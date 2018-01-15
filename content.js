@@ -1,3 +1,4 @@
+checkNames();
 extendText();
 
 function getNameRegex(name) {
@@ -13,14 +14,22 @@ function extendText() {
   findTextNodes(document.body).forEach(function(node) {
     node.textContent = node.textContent.replace(/Björn Höcke/g, 'Bernd Höcke');
     data.forEach(function(item) {
-      var parts = node.textContent.split(getNameRegex(item.name));
+      if (item.isPresent) {
+        var parts = node.textContent.split(getNameRegex(item.name));
 
-      for (var i = parts.length - 1; i > 0; i--) {
-        var isEndOfSentence = /^\s*[^a-z 0-9]/i.test(parts[i]) || parts[i] === '';
-        parts.splice(i, 0, getNewString(item, isEndOfSentence));
+        for (var i = parts.length - 1; i > 0; i--) {
+          var isEndOfSentence = /^\s*[^a-z 0-9]/i.test(parts[i]) || parts[i] === '';
+          parts.splice(i, 0, getNewString(item, isEndOfSentence));
+        }
+        node.textContent = parts.join('');
       }
-      node.textContent = parts.join('');
     });
+  });
+}
+
+function checkNames() {
+  data.forEach(function(item) {
+    item.isPresent = document.body.innerHTML.indexOf(item.forename + ' ' + item.name) !== -1;
   });
 }
 

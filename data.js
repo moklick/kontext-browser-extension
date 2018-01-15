@@ -197,5 +197,4 @@ var data = [
     'text': ['der von \"Systemmedien\" spricht'],
     'src': ['https://de-de.facebook.com/thomas.roeckemann/posts/1272919946186671']
   }
-  
 ];
