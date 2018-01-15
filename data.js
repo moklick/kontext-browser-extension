@@ -136,6 +136,66 @@ var data = [
     'name': 'Poggenburg',
     'text': ['der Veranstaltungen mit Neonazis durchführt'],
     'src': ['http://www.zeit.de/2016/05/afd-andre-poggenburg-sachsen-anhalt-asylpolitik-wahlkampf']
+  },
+  {
+    'forename': 'Uwe',
+    'name': 'Junge',
+    'text': ['der Fan von Victor Orbán ist'],
+    'src': ['https://twitter.com/Uwe_Junge_MdL/status/950625041775022080']
+  },
+  {
+    'forename': 'Marc',
+    'name': 'Jongen',
+    'text': ['der Verschwörungstheorien zu \"Mischbevölkerungen\" zitiert'],
+    'src': ['http://www.sueddeutsche.de/politik/philosoph-marc-jongen-der-wutdenker-der-afd-1.2865813-2']
+  },
+  {
+    'forename': 'Guido',
+    'name': 'Reil',
+    'text': ['der eng mit Bernd Höcke zusammenarbeit'],
+    'src': ['https://twitter.com/GuidoReil/status/952712254868377606']
+  },
+  {
+    'forename': 'Ralf',
+    'name': 'Özkara',
+    'text': ['der die Überwachung aller Moscheen in Deutschland fordert'],
+    'src': ['https://www.youtube.com/watch?v=0_XCeFgZHQk']
+  },
+  {
+    'forename': 'Martin',
+    'name': 'Sichert',
+    'text': ['der den zweiten Weltkrieg verharmlost'],
+    'src': ['http://www.abendzeitung-muenchen.de/inhalt.sie-ziehen-in-den-bundestag-ein-die-kuenftigen-bayerischen-afd-abgeordneten.b36878c1-9162-404d-80ab-f89021b4d36c.html']
+  },
+  {
+    'forename': 'Frank',
+    'name': 'Magnitz',
+    'text': ['der eng mit Bernd Höcke zusammenarbeitet'],
+    'src': ['https://www.weser-kurier.de/bremen/bremen-stadt_artikel,-gegen-merkel-und-mohammed-_arid,1645275.html']
+  },
+  {
+    'forename': 'Dirk',
+    'name': 'Nockemann',
+    'text': ['der für eine Wasserwerfer-Attacke auf die Holocaust-Überlebende Esther Bejarano verantwortlich ist'],
+    'src': ['https://publikative.org/2015/01/17/schill-imitator-bei-der-afd-in-hamburg/']
+  },
+  {
+    'forename': 'Leif-Erik',
+    'name': 'Holm',
+    'text': ['der mit Bernd Höcke zusammenarbeitet'],
+    'src': ['http://www.zeit.de/2016/37/mecklenburg-vorpommern-afd-kandidat-leif-erik-holm-berlin']
+  },
+  {
+    'forename': 'Armin-Paul',
+    'name': 'Hampel',
+    'text': ['der von \"Asylwahn\" und \"Blockparteien\" im Bundestag spricht'],
+    'src': ['https://www.taz.de/!5241266/']
+  },
+  {
+    'forename': 'Thomas',
+    'name': 'Röckemann',
+    'text': ['der von \"Systemmedien\" spricht'],
+    'src': ['https://de-de.facebook.com/thomas.roeckemann/posts/1272919946186671']
   }
-
+  
 ];
