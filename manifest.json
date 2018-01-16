@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "name context extension",
-  "description": "description.",
+  "description": "Eine Browser-Extension, die automatisiert Zusatzinformationen zu bestimmten Politikern in besuchten Webseiten einfügt.",
   "version": "1.0",
   "permissions": [
     "activeTab"
