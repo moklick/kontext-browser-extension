@@ -1,4 +1,4 @@
-# Name Context Browser Extension
+# Kontext - Chrome/Firefox Browser Extension
 
 Browser extension that adds context to certain German politicians.
 
