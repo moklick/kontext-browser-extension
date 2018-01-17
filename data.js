@@ -32,8 +32,8 @@ var data = [
   {
     'forename': 'Frauke',
     'name': 'Petry',
-    'text': ['die Fan der französischen Rechtsextremistin Marine Le Pen ist'],
-    'src': ['https://de.wikipedia.org/wiki/Frauke_Petry#Migrationspolitik,_Asylrecht,_Kriminalit%C3%A4tsbek%C3%A4mpfung_und_EU']
+    'text': ['die Fan der französischen Rechtsextremistin Marine Le Pen ist', 'die den Schießbefehl an der Grenze fordert'],
+    'src': ['https://de.wikipedia.org/wiki/Frauke_Petry#Migrationspolitik,_Asylrecht,_Kriminalit%C3%A4tsbek%C3%A4mpfung_und_EU', 'http://www.faz.net/aktuell/politik/inland/afd-chefin-frauke-petry-fodert-schiessbefehl-an-grenze-14044672.html']
   },
   {
     'forename': 'Horst',
@@ -98,8 +98,8 @@ var data = [
   {
     'forename': 'Frank',
     'name': 'Pasemann',
-    'text': ['der Kunde der Neonazi-Kleidermarke Thor Steinar ist'],
-    'src': ['http://www.tagesspiegel.de/politik/neue-abgeordnete-das-sind-die-radikalen-in-der-afd-fraktion/20361302.html']
+    'text': ['der Kunde der Neonazi-Kleidermarke Thor Steinar ist', 'der Verbindungen zur rassistischen Identitäten Bewegungen hat'],
+    'src': ['http://www.tagesspiegel.de/politik/neue-abgeordnete-das-sind-die-radikalen-in-der-afd-fraktion/20361302.html', 'http://www.zeit.de/politik/deutschland/2017-09/afd-kandidaten-bundestagswahl-abgeordnete']
   },
   {
     'forename': 'Petr',
@@ -112,12 +112,6 @@ var data = [
     'name': 'von Storch',
     'text': ['die an der Grenze auch auf Kinder schießen lassen würde'],
     'src': ['http://www.spiegel.de/politik/deutschland/afd-beatrix-von-storch-wird-im-netz-verspottet-a-1076209.html']
-  },
-  {
-    'forename': 'Frank',
-    'name': 'Pasemann',
-    'text': ['der Verbindungen zur rassistischen Identitäten Bewegungen hat'],
-    'src': ['http://www.zeit.de/politik/deutschland/2017-09/afd-kandidaten-bundestagswahl-abgeordnete']
   },
   {
     'forename': 'Andreas',
