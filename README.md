@@ -1,5 +1,5 @@
 <div style="text-align: center;">
-<h1>Kontext - Chrome/Firefox Browser Extension</h1>
+<h1 style="text-align: center;">Kontext - Chrome/Firefox Browser Extension</h1>
 
 <strong>Browser extension that adds context to certain German politicians.</strong>
 
