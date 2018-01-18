@@ -8,7 +8,7 @@ var data = [
   {
     'forename': 'Alexander',
     'name': 'Gauland',
-    'text': ['der Stolz auf die Leistungen deutscher Soldaten im zweiten Weltkrieg ist', 'der Menschen entsorgen lassen will'],
+    'text': ['der stolz auf die Leistungen deutscher Soldaten im zweiten Weltkrieg ist', 'der Menschen entsorgen lassen will'],
     'src': ['https://www.buzzfeed.com/marcusengert/afd-spitzenkandidat-gauland-findet-deutsche-sollten-stolz?utm_term=.mdPMqlyw2v#.muP3gEdlzW', 'http://www.faz.net/aktuell/politik/bundestagswahl/afd-alexander-gauland-traeumt-von-entsorgung-aydan-oezoguz-15171141.html']
   },
   {
