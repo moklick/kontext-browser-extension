@@ -1,10 +1,8 @@
-<div style="text-align: center;">
-<h1 style="text-align: center;">Kontext - Chrome/Firefox Browser Extension</h1>
-
-<strong>Browser extension that adds context to certain German politicians.</strong>
+# Kontext - Chrome/Firefox Browser Extension
+Browser extension that adds context to certain German politicians.
 
 ![screenshot](https://lh3.googleusercontent.com/cTrLFqi1KddGD9Ws2cxHc2hZGPJJJGxf2U-fVlTxqiWkrD4TBtNOeVnpUwZDmSIdFIvzmuDFCro=w640-h400-e365)
-</div>
+
 
 ## Run
 
