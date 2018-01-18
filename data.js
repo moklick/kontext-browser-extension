@@ -8,8 +8,8 @@ var data = [
   {
     'forename': 'Alexander',
     'name': 'Gauland',
-    'text': ['der Menschen entsorgen lassen will'],
-    'src': ['http://www.faz.net/aktuell/politik/bundestagswahl/afd-alexander-gauland-traeumt-von-entsorgung-aydan-oezoguz-15171141.html']
+    'text': ['der Stolz auf die Leistungen deutscher Soldaten im zweiten Weltkrieg ist', 'der Menschen entsorgen lassen will'],
+    'src': ['https://www.buzzfeed.com/marcusengert/afd-spitzenkandidat-gauland-findet-deutsche-sollten-stolz?utm_term=.mdPMqlyw2v#.muP3gEdlzW', 'http://www.faz.net/aktuell/politik/bundestagswahl/afd-alexander-gauland-traeumt-von-entsorgung-aydan-oezoguz-15171141.html']
   },
   {
     'forename': 'Alice',
@@ -74,8 +74,8 @@ var data = [
   {
     'forename': 'Markus',
     'name': 'Frohnmaier',
-    'text': ['der \"volksfeindliche Parteien\" aus Deutschland \"heraustreiben will\"'],
-    'src': ['http://meedia.de/2017/05/10/zitate-streit-afd-politiker-markus-frohnmaier-verliert-vor-gericht-gegen-ulmer-lokal-portal/']
+    'text': ['der \"volksfeindliche Parteien\" aus Deutschland \"heraustreiben will\"', 'der mit rechtsextremen Organisationen zusammenarbeitet'],
+    'src': ['http://meedia.de/2017/05/10/zitate-streit-afd-politiker-markus-frohnmaier-verliert-vor-gericht-gegen-ulmer-lokal-portal/', 'http://www.badische-zeitung.de/suedwest-1/neue-vorwuerfe-gegen-afd-jungpolitiker-frohnmaier--125381174.html']
   },
   {
     'forename': 'Martin',
@@ -104,7 +104,7 @@ var data = [
   {
     'forename': 'Petr',
     'name': 'Bystron',
-    'text': ['der laut Verfassungsschutz verfassungsfeindliche Bestrebungen zeigt'],
+    'text': ['der laut einem Münchner Gericht verfassungsfeindliche Bestrebungen zeigt'],
     'src': ['http://www.tagesspiegel.de/politik/neue-abgeordnete-das-sind-die-radikalen-in-der-afd-fraktion/20361302.html']
   },
   {
@@ -134,7 +134,7 @@ var data = [
   {
     'forename': 'Uwe',
     'name': 'Junge',
-    'text': ['der Fan von Victor Orbán ist'],
+    'text': ['der Fan von Viktor Orbán ist'],
     'src': ['https://twitter.com/Uwe_Junge_MdL/status/950625041775022080']
   },
   {
@@ -190,5 +190,95 @@ var data = [
     'name': 'Röckemann',
     'text': ['der von \"Systemmedien\" spricht'],
     'src': ['https://de-de.facebook.com/thomas.roeckemann/posts/1272919946186671']
+  },
+  {
+    'forename': 'Jürgen',
+    'name': 'Pohl',
+    'text': ['der mit zahlreichen Nazis auf Facebook befreundet ist', 'der enger Weggefährte von Bernd Höcke ist'],
+    'src': ['https://www.buzzfeed.com/marcusengert/fast-50-bundestagskandidaten-der-afd-grenzen-sich-nicht-von?utm_term=.puYAXweYRB#.xgj8G3xb7r', 'https://de.wikipedia.org/wiki/J%C3%BCrgen_Pohl_(Politiker)']
+  },
+  {
+    'forename': 'Thomas',
+    'name': 'Seitz',
+    'text': ['der Rassist ist'],
+    'src': ['http://www.spiegel.de/wissenschaft/mensch/bundestagswahl-2017-sieben-gruende-afd-zu-waehlen-aber-treffen-sie-auf-sie-zu-a-1169258.html']
+  },
+  {
+    'forename': 'Peter',
+    'name': 'Boehringer',
+    'text': ['der an eine jüdische Weltverschwörung glaubt'],
+    'src': ['http://www.tagesspiegel.de/politik/gaulands-mitstreiter-diese-rechten-will-die-afd-in-den-bundestag-schicken/20344126.html']
+  },
+  {
+    'forename': 'Enrico',
+    'name': 'Komning',
+    'text': ['der mit seiner Tochter stolz die erste Strophe der Nationalhymne singt', 'der mit der rechtsextremen Identitären Bewegung und mit Pegida sympathisiert'],
+    'src': ['http://www.tagesspiegel.de/themen/reportage/rechte-vor-einzug-in-den-bundestag-so-extrem-sind-die-kandidaten-der-afd/20350578.html', 'http://www.belltower.news/artikel/afd-vor-den-wahlen-das-schreiben-die-kandidatinnen-bei-facebook-und-twitter-11193']
+  },
+  {
+    'forename': 'Sebastian',
+    'name': 'Münzenmaier',
+    'text': ['der an Hooligan-Schlägereien teilgenommen haben soll', 'der Mitglied bei der islanfeindlich Partei \"Die Freiheit\" war'],
+    'src': ['http://www.tagesspiegel.de/themen/reportage/rechte-vor-einzug-in-den-bundestag-so-extrem-sind-die-kandidaten-der-afd/20350578.html']
+  },
+  {
+    'forename': 'Nicolaus',
+    'name': 'Fest',
+    'text': ['der Gastarbeiter als \"Gesindel\" bezeichnet', 'der alle Moscheen in Deutschland schließen lassen will'],
+    'src': ['http://www.tagesspiegel.de/berlin/afd-bundestagskandidat-anzeige-gegen-nicolaus-fest-wegen-volksverhetzung/19600292.html', 'http://www.spiegel.de/video/afd-neuzugang-nicolaus-fest-will-schliessung-von-moscheen-video-1710365.html']
+  },
+  {
+    'forename': 'Karsten',
+    'name': 'Hilse',
+    'text': ['der hinter der Ehe für alle \"Strippenzieher im Hintergrund\" vermutet'],
+    'src': ['http://www.tagesspiegel.de/themen/reportage/rechte-vor-einzug-in-den-bundestag-so-extrem-sind-die-kandidaten-der-afd/20350578.html']
+  },
+  {
+    'forename': 'Tino',
+    'name': 'Chrupalla',
+    'text': ['der die Zensur von Medien fordert'],
+    'src': ['http://www.bento.de/politik/afd-dutzende-rechtsradikale-auf-den-vorderen-listenplaetze-zur-bundestagswahl-2017-1681100/']
+  },
+  {
+    'forename': 'Martin',
+    'name': 'Renner',
+    'text': ['der von einer \"Schuldkult-Hypermoralisierung\" in Deutschland spricht'],
+    'src': ['http://www.rundschau-online.de/politik/rechtsruck-bei-der-afd-martin-renner-wird-spitzenkandidat-fuer-die-bundestagswahl-25918682']
+  },
+  {
+    'forename': 'Siegbert',
+    'name': 'Droese',
+    'text': ['dessen Autokennzeichen die Neonazicodes AH1818 enthält', 'der mit der Rechtsextremen Tatjana Festerling bei Legida zusammenarbeiten wollte'],
+    'src': ['https://www.vice.com/de/article/mv4mbn/die-afd-faehrt-mit-hitler-kennzeichen-durch-leipzig', 'https://kreuzer-leipzig.de/2016/05/24/wie-viel-pegida-partei-will-die-afd-sein/']
+  },
+  {
+    'forename': 'Stefan',
+    'name': 'Kotré',
+    'text': ['laut dem Herkunft und \"Vergewaltigerpotenzial\" direkt zusammenhängen'],
+    'src': ['http://www.berliner-zeitung.de/berlin/die-abgeordneten-der-afd-sammelbecken-der-unzufriedenen-221000']
+  },
+  {
+    'forename': 'Detlef',
+    'name': 'Spangenberg',
+    'text': ['der Mitglied der rechtsextremen Wählervereinigung \"Arbeit, Familie, Vaterland\" war'],
+    'src': ['http://www.spiegel.de/politik/deutschland/afd-in-sachsen-kein-amt-fuer-abgeordneten-mit-rechter-vergangenheit-a-989731.html']
+  },
+  {
+    'forename': 'Ulrich',
+    'name': 'Oehme',
+    'text': ['der mit einem SA-Spruch zur Bundestagswahl geworben hatte'],
+    'src': ['http://www.zeit.de/politik/deutschland/2017-09/afd-kandidaten-bundestagswahl-abgeordnete']
+  },
+  {
+    'forename': 'Hans-Jörg',
+    'name': 'Müller',
+    'text': ['der Migration nach Deutschland als \"organisierte Invasion\" bezeichnet'],
+    'src': ['https://www.youtube.com/watch?time_continue=2&v=pI03Ar7SmkA']
+  },
+  {
+    'forename': 'Heiko',
+    'name': 'Hessenkemper',
+    'text': ['der ultrarechts ist'],
+    'src': ['http://www.zeit.de/politik/deutschland/2017-09/afd-kandidaten-bundestagswahl-abgeordnete']
   }
 ];
