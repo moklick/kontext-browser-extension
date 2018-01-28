@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Kontext</title>
+  <meta name="description" content="Browser-Extension, die Zusatzinformationen zu bestimmten Politikern in Webseiten einfügt.">
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+
+  <style>
+    * {
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Source Sans Pro', sans-serif;
+      color: #232323;
+      background: #fcfcfc;
+    }
+
+    h1 {
+      font-size: 5em;
+    }
+
+    h2 {
+      font-weight: 400;
+      color: #555;
+    }
+
+    .site {
+      margin-top: 2em;
+      text-align: center;
+    }
+
+    .install {
+      margin: 3em 0 4em;
+      color: #999;
+    }
+
+    .install__label {
+      margin-bottom: .5em;
+    }
+
+    .install__btns {
+      display: flex;
+      max-width: 450px;
+      margin: 0 auto;
+      justify-content: space-between
+    }
+
+    .btn {
+      border-radius: 25px;
+      background: rgb(14, 180, 130);
+      color: #fff;
+      font-weight: 400;
+      border: none;
+      padding: .6em 1em;
+      width: 49%;
+      font-size: 1.25em;
+      transition: box-shadow .2s;
+      cursor: pointer;
+      box-shadow: 0 1px 4px rgba(0,0,0,0);
+      line-height: 1;
+      display: block;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      box-shadow: 0 1px 4px rgba(0,0,0,.5);
+      text-decoration: none;
+    }
+
+    .btn:focus {
+      outline: none
+    }
+
+    .example {
+      text-align: left;
+      max-width: 700px;
+      margin:0 auto;
+    }
+
+    .example__label {
+      margin: 1em 0 .5em 0;
+      color: #999;
+    }
+
+    .example__image {
+      border-radius: 2px;
+      box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="site">
+    <h1>Kontext</h1>
+    <h2>Eine Browser-Extension, die Zusatzinformationen zu Politikern in Webseiten einfügt.</h2>
+
+    <div class="install">
+      <div class="install__btns">
+        <a class="btn" href="https://chrome.google.com/webstore/detail/kontext/mfphpdgjngbopfjgbpkeablkjhlohmkb?hl=de">Chrome Extension</a>
+        <a class="btn" href="https://addons.mozilla.org/de/firefox/addon/kontext/">Firefox Plugin</a>
+      </div>
+    </div>
+
+    <div class="example">
+      <div class="example__label">Beispiele:</div>
+      <img src="kontext-example.jpg" class="example__image"/>
+    </div>
+  </div>
+
+</body>
+</html>
