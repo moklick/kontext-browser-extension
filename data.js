@@ -206,8 +206,8 @@ var data = [
   {
     'forename': 'Peter',
     'name': 'Boehringer',
-    'text': ['der an eine jüdische Weltverschwörung glaubt'],
-    'src': ['http://www.tagesspiegel.de/politik/gaulands-mitstreiter-diese-rechten-will-die-afd-in-den-bundestag-schicken/20344126.html']
+    'text': ['der an eine jüdische Weltverschwörung glaubt', 'der die Kanzlerin als \"Merkelnutte\" bezeichnet haben soll'],
+    'src': ['http://www.tagesspiegel.de/politik/gaulands-mitstreiter-diese-rechten-will-die-afd-in-den-bundestag-schicken/20344126.html', 'http://www.spiegel.de/politik/deutschland/bundestag-wann-die-afd-beim-gedenken-an-auschwitz-befreiung-nicht-klatschte-a-1190774.html']
   },
   {
     'forename': 'Enrico',
