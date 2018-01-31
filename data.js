@@ -280,5 +280,11 @@ var data = [
     'name': 'Hessenkemper',
     'text': ['der ultrarechts ist'],
     'src': ['http://www.zeit.de/politik/deutschland/2017-09/afd-kandidaten-bundestagswahl-abgeordnete']
+  },
+  {
+    'forename': 'Stephan',
+    'name': 'Brandner',
+    'text': ['der politische Gegner als \"Ergebnis von Sodomie und Inzucht\" bezeichnet'],
+    'src': ['https://www.noz.de/deutschland-welt/politik/artikel/955751/wie-rechts-ist-die-afd']
   }
 ];
