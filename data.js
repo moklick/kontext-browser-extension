@@ -218,7 +218,7 @@ var data = [
   {
     'forename': 'Sebastian',
     'name': 'Münzenmaier',
-    'text': ['der an Hooligan-Schlägereien teilgenommen haben soll', 'der Mitglied bei der islanfeindlich Partei \"Die Freiheit\" war'],
+    'text': ['der an Hooligan-Schlägereien teilgenommen haben soll', 'der Mitglied bei der islamfeindlichen Partei \"Die Freiheit\" war'],
     'src': ['http://www.tagesspiegel.de/themen/reportage/rechte-vor-einzug-in-den-bundestag-so-extrem-sind-die-kandidaten-der-afd/20350578.html']
   },
   {
