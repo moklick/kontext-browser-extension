@@ -286,5 +286,29 @@ var data = [
     'name': 'Brandner',
     'text': ['der politische Gegner als \"Ergebnis von Sodomie und Inzucht\" bezeichnet'],
     'src': ['https://www.noz.de/deutschland-welt/politik/artikel/955751/wie-rechts-ist-die-afd']
+  },
+  {
+    'forename': 'Markus',
+    'name': 'Söder',
+    'text': ['der findet, dass in KLassenzimmer \"Kruzifixe und keine Kopftücher\" gehören'],
+    'src': ['http://www.spiegel.de/fotostrecke/markus-soeder-seine-besten-zitate-fotostrecke-155827-3.html']
+  },
+  {
+    'forename': 'Ursula',
+    'name': 'von der Leyen',
+    'text': ['die schon guttenbergte bevor es in war'],
+    'src': ['http://www.spiegel.de/lebenundlernen/job/ursula-von-der-leyen-darum-darf-sie-ihren-doktortitel-behalten-a-1081520.html']
+  },
+  {
+    'forename': 'Thomas',
+    'name': 'de Maizière',
+    'text': ['bei dem ein Teil der Antwort die \"Bevölkerung verunsichern\" würde'],
+    'src': ['https://www.welt.de/politik/deutschland/article148969193/Ein-Teil-dieser-Antworten-wuerde-die-Bevoelkerung-verunsichern.html']
+  },
+  {
+    'forename': 'Christian',
+    'name': 'Lindner',
+    'text': ['der lieber nicht \" regiert, als falsch zu regieren\"'],
+    'src': ['http://www.zeit.de/politik/deutschland/2017-11/christian-lindner-sondierung-jamaika-abbruch-fdp']
   }
 ];
