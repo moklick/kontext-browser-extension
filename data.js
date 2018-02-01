@@ -296,7 +296,7 @@ var data = [
   {
     'forename': 'Ursula',
     'name': 'von der Leyen',
-    'text': ['die schon guttenbergte bevor es in war'],
+    'text': ['die schon guttenbergte, bevor es in war'],
     'src': ['http://www.spiegel.de/lebenundlernen/job/ursula-von-der-leyen-darum-darf-sie-ihren-doktortitel-behalten-a-1081520.html']
   },
   {
