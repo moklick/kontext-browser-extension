@@ -1,24 +1,30 @@
-checkNames();
-extendText();
+const getNameRegex = name => new RegExp(`\\b${name}\\b`, 'g');
 
-function getNameRegex(name) {
-  return new RegExp('\\b' + name + '\\b', 'g');
+const getNewString = (item, isEndOfSentence) => `${item.name}, ${item.text[Math.floor(item.text.length * Math.random())]}${isEndOfSentence ? '' : ','}`;
+
+// via http://stackoverflow.com/questions/10730309/find-all-text-nodes-in-html-page#answer-10730777
+function findTextNodes(el) {
+  const textNodes = [];
+  const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null, false);
+  while (walker.nextNode()) {
+    textNodes.push(walker.currentNode);
+  }
+  return textNodes;
 }
 
-function getNewString(item, isEndOfSentence) {
-  return item.name + ', ' + item.text[Math.floor(item.text.length * Math.random())] + (isEndOfSentence ? '' : ',');
+function checkNames() {
+  data.forEach(item => item.isPresent = document.body.innerHTML.includes(`${item.forename} ${item.name}`));
 }
 
 // extend text content with extension sentences
 function extendText() {
-  findTextNodes(document.body).forEach(function(node) {
+  findTextNodes(document.body).forEach(node => {
     node.textContent = node.textContent.replace(/Björn Höcke/g, 'Bernd Höcke');
-    data.forEach(function(item) {
+    data.forEach(item => {
       if (item.isPresent) {
-        var parts = node.textContent.split(getNameRegex(item.name));
-
-        for (var i = parts.length - 1; i > 0; i--) {
-          var isEndOfSentence = /^\s*[^a-z 0-9]/i.test(parts[i]) || parts[i] === '';
+        const parts = node.textContent.split(getNameRegex(item.name));
+        for (let i = parts.length - 1; i > 0; i--) {
+          const isEndOfSentence = /^\s*[^a-z 0-9]/i.test(parts[i]) || parts[i] === '';
           parts.splice(i, 0, getNewString(item, isEndOfSentence));
         }
         node.textContent = parts.join('');
@@ -27,19 +33,6 @@ function extendText() {
   });
 }
 
-function checkNames() {
-  data.forEach(function(item) {
-    item.isPresent = document.body.innerHTML.indexOf(item.forename + ' ' + item.name) !== -1;
-  });
-}
+checkNames();
+extendText();
 
-// via http://stackoverflow.com/questions/10730309/find-all-text-nodes-in-html-page#answer-10730777
-function findTextNodes(el) {
-  var node;
-  var textNodes = [];
-  var walk = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null, false);
-  while ((node = walk.nextNode())) {
-    textNodes.push(node);
-  }
-  return textNodes;
-}
