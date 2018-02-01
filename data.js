@@ -286,5 +286,11 @@ var data = [
     'name': 'Brandner',
     'text': ['der politische Gegner als \"Ergebnis von Sodomie und Inzucht\" bezeichnet'],
     'src': ['https://www.noz.de/deutschland-welt/politik/artikel/955751/wie-rechts-ist-die-afd']
+  },
+  {
+    'forename': '',
+    'name': 'SPD',
+    'text': ['auch als \"Verräterpartei\" bekannt'],
+    'src': ['General Knowledge']
   }
 ];
