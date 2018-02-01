@@ -292,5 +292,29 @@ var data = [
     'name': 'Gottschalk',
     'text': ['der dazu aufrief, türkische Geschäfte zu boykottieren'],
     'src': ['http://www.rp-online.de/nrw/staedte/krefeld/krefeld-kay-gottschalk-afd-ruft-zu-boykott-tuerkischer-geschaefte-auf-aid-1.7345603']
+  },
+  {
+    'forename': 'Volker',
+    'name': 'Beck',
+    'text': ['der sich in den achtziger Jahren für die Enktriminalisierung der Sexualität mit Kindern ausgesprochen hatte'],
+    'src': ['http://www.faz.net/aktuell/politik/inland/paedophilie-debatte-neue-vorwuerfe-gegen-volker-beck-12583033.html']
+  },
+  {
+    'forename': 'Stefanie',
+    'name': 'von Berg',
+    'text': ['die gerne eine Moschee in jedem einzelnen Hamburger Bezirk sehen würde'],
+    'src': ['https://www.welt.de/regionales/hamburg/article155784336/Gruene-fordert-Moscheen-in-jedem-Hamburger-Bezirk.html#disqus_thread']
+  },
+  {
+    'forename': 'Alice',
+    'name': 'Schwarzer',
+    'text': ['eine der Hauptverantwortlichen für die Legalisierung des industriellen Massenmords an deutschen Kindern'],
+    'src': ['https://www1.wdr.de/fernsehen/wdr-dok/sendungen/wir-haben-abgetrieben-100.html']
+  },
+  {
+    'forename': 'Sebastian',
+    'name': 'Edathy',
+    'text': ['der berüchtigte Kinderporno-Kommunist'],
+    'src': ['http://www.spiegel.de/politik/deutschland/edathy-affaere-die-chronologie-der-kinderpornoaffaere-a-1009249.html']
   }
 ];
