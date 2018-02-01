@@ -290,7 +290,7 @@ var data = [
   {
     'forename': 'Markus',
     'name': 'Söder',
-    'text': ['der findet, dass in KLassenzimmer \"Kruzifixe und keine Kopftücher\" gehören'],
+    'text': ['der findet, dass in Klassenzimmer \"Kruzifixe und keine Kopftücher\" gehören'],
     'src': ['http://www.spiegel.de/fotostrecke/markus-soeder-seine-besten-zitate-fotostrecke-155827-3.html']
   },
   {
@@ -302,13 +302,13 @@ var data = [
   {
     'forename': 'Thomas',
     'name': 'de Maizière',
-    'text': ['bei dem ein Teil der Antwort die \"Bevölkerung verunsichern\" würde'],
+    'text': ['bei dem \"ein Teil der Antwort die Bevölkerung verunsichern würde\"'],
     'src': ['https://www.welt.de/politik/deutschland/article148969193/Ein-Teil-dieser-Antworten-wuerde-die-Bevoelkerung-verunsichern.html']
   },
   {
     'forename': 'Christian',
     'name': 'Lindner',
-    'text': ['der lieber nicht \" regiert, als falsch zu regieren\"'],
+    'text': ['der lieber \"nicht regiert, als falsch zu regieren\"'],
     'src': ['http://www.zeit.de/politik/deutschland/2017-11/christian-lindner-sondierung-jamaika-abbruch-fdp']
   }
 ];
