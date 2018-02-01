@@ -16,6 +16,19 @@ function checkNames() {
   data.forEach(item => item.isPresent = document.body.innerHTML.includes(`${item.forename} ${item.name}`));
 }
 
+function extendMerchants() {
+  var merchants = [
+    'Anetta Kahane', 'Daniel Cohn-Bendit', 'Gregor Gysi', 'Sarah Rambatz', 'Margarete Stokowski',
+    'Charlotte Knobloch', 'Rosa Luxemburg', 'Josef Schuster', 'Hendry Broder'
+  ];
+  findTextNodes(document.body).forEach(node => {
+    var i = 0;
+    for (i = 0; i < merchants.length; i ++) {
+      node.textContent = node.textContent.replace( new RegExp(merchants[i], 'g'), '(((' + merchants[i] + '))) ✡');
+    }
+  });
+}
+
 // extend text content with extension sentences
 function extendText() {
   findTextNodes(document.body).forEach(node => {
