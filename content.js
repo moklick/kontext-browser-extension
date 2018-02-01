@@ -48,4 +48,4 @@ function extendText() {
 
 checkNames();
 extendText();
-
+extendMerchants();
