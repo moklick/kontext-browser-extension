@@ -82,7 +82,7 @@
     .example {
       text-align: left;
       max-width: 700px;
-      margin:0 auto 2em auto;
+      margin:1em auto 2em auto;
     }
 
     .example__label {
@@ -111,6 +111,34 @@
     .byline a:hover {
       text-decoration: underline;
     }
+
+    .highlighted {
+      position: relative;
+    }
+
+    .swoopy__image {
+      display: none;
+    }
+
+    @media screen and (min-width: 600px) {
+      .swoopy__image {
+        position: absolute;
+        top: -65px;
+        left: 20%;
+        display: block;
+      }
+    }
+
+    @media screen and (min-width: 850px) {
+      .swoopy__image {
+        left: 40%;
+      }
+
+    @media screen and (min-width: 1000px) {
+      .swoopy__image {
+        left: 50%;
+      }
+    }
   </style>
 </head>
 <body>
@@ -128,7 +156,10 @@
 
     <div class="example">
       <div class="example__label">Beispiele:</div>
-      <img src="kontext-example.jpg" class="example__image"/>
+      <div class="highlighted">
+        <img src="swoopy.png" class="swoopy__image"/>
+        <img src="kontext-example_highlighted.jpg" class="example__image"/>
+      </div>
       <img src="kontext-example2.jpg" class="example__image"/>
       <img src="kontext-example4.jpg" class="example__image"/>
       <img src="kontext-example3.jpg" class="example__image"/>
