@@ -292,5 +292,41 @@ var data = [
     'name': 'Gottschalk',
     'text': ['der dazu aufrief, türkische Geschäfte zu boykottieren'],
     'src': ['http://www.rp-online.de/nrw/staedte/krefeld/krefeld-kay-gottschalk-afd-ruft-zu-boykott-tuerkischer-geschaefte-auf-aid-1.7345603']
+  },
+  {
+    'forename': 'Sawsan',
+    'name': 'Chebli',
+    'text': ['die der Meinung ist, dass die Scharia-Gesetze mit dem Grundgesetz vereinbar sind'],
+    'src': ['http://www.faz.net/aktuell/politik/inland/gespraech-ueber-unsere-gesellschaft-und-den-islam-14368816.html?printPagedArticle=true#pageIndex_0']
+  },
+  {
+    'forename': 'Anetta',
+    'name': 'Kahane',
+    'text': ['die in der DDR als Informantin \"Victoria\" Dissidenten an das Ministerium für Staatsschutz verriet'],
+    'src': ['https://www.welt.de/politik/deutschland/article1212415/Birthler-Behoerde-liess-Stasi-Spitzel-einladen.html']
+  },
+  {
+    'forename': 'Julia',
+    'name': 'Schramm',
+    'text': ['die gerne Gedichte über die Brandbombenangriffe auf Dresden verfasst'],
+    'src': ['http://archive.is/qhYsK']
+  },
+  {
+    'forename': 'Martin',
+    'name': 'Schulz',
+    'text': ['für den das Deutsche Volk nur existiert, um die Existenz Israels sicherzustellen'],
+    'src': ['https://archive.is/RxARq']
+  },
+  {
+    'forename': 'Rambatz',
+    'name': 'Sarah',
+    'text': ['die gerne \"antideutsche\" Filmabende, mit Filmen in denen Deutsche sterben, veranstaltet'],
+    'src': ['https://www.mopo.de/hamburg/politik/hamburger-linken-politikerin-morddrohungen-nach-verstoerendem-facebook-post-28368424']
+  },
+  {
+    'forename': 'Deniz',
+    'name': 'Yücel',
+    'text': ['der das Aussterben der Deutschen als \"Völkersterben von seiner schönsten Seite\" bezeichnet'],
+    'src': ['http://taz.de/!5114887/']
   }
 ];
