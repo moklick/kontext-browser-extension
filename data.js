@@ -1,6 +1,6 @@
 var data = [
   {
-    'forename': 'Björn',
+    'forename': 'Bernd',
     'name': 'Höcke',
     'text': ['der gute Kontakte zur NPD hat'],
     'src': ['https://de.wikipedia.org/wiki/Bj%C3%B6rn_H%C3%B6cke#Vermutete_Autorschaft_in_Zeitschriften_des_NPD-Umfelds']
