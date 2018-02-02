@@ -98,7 +98,7 @@ var data = [
   {
     'forename': 'Frank',
     'name': 'Pasemann',
-    'text': ['der Kunde der Neonazi-Kleidermarke Thor Steinar ist', 'der Verbindungen zur rassistischen Identitäten Bewegungen hat'],
+    'text': ['der Kunde der Neonazi-Kleidermarke Thor Steinar ist', 'der Verbindungen zur rassistischen Identitären Bewegung hat'],
     'src': ['http://www.tagesspiegel.de/politik/neue-abgeordnete-das-sind-die-radikalen-in-der-afd-fraktion/20361302.html', 'http://www.zeit.de/politik/deutschland/2017-09/afd-kandidaten-bundestagswahl-abgeordnete']
   },
   {
@@ -310,5 +310,11 @@ var data = [
     'name': 'Lindner',
     'text': ['der lieber \"nicht regiert, als falsch zu regieren\"'],
     'src': ['http://www.zeit.de/politik/deutschland/2017-11/christian-lindner-sondierung-jamaika-abbruch-fdp']
+  },
+  {
+    'forename': 'Kay',
+    'name': 'Gottschalk',
+    'text': ['der dazu aufrief, türkische Geschäfte zu boykottieren'],
+    'src': ['http://www.rp-online.de/nrw/staedte/krefeld/krefeld-kay-gottschalk-afd-ruft-zu-boykott-tuerkischer-geschaefte-auf-aid-1.7345603']
   }
 ];
