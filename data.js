@@ -292,6 +292,42 @@ var data = [
     'name': 'Gottschalk',
     'text': ['der dazu aufrief, türkische Geschäfte zu boykottieren'],
     'src': ['http://www.rp-online.de/nrw/staedte/krefeld/krefeld-kay-gottschalk-afd-ruft-zu-boykott-tuerkischer-geschaefte-auf-aid-1.7345603']
+  },
+  {
+    'forename': 'Brigitte',
+    'name': 'Zypries',
+    'text': ['die nicht weiß, was ein Browser ist, und auch keinen benennen kann'],
+    'src': ['https://www.youtube.com/watch?v=EPWrkFlF-r4']
+  },
+  {
+    'forename': 'Kay',
+    'name': 'Nerstheimer',
+    'text': ['der in Berlin wegen Volksverhetzung vor Gericht steht'],
+    'src': ['https://www.bnr.de/artikel/aktuelle-meldungen/afd-politiker-wegen-volksverhetzung-vor-gericht']
+  },
+  {
+    'forename': 'Jeanette',
+    'name': 'Ihme',
+    'text': ['die Flüchtlinge als \"Primaten\" bezeichnete und deswegen wegen Volksverhetzung verurteilt wurde'],
+    'src': ['http://www.t-online.de/nachrichten/deutschland/innenpolitik/id_82802602/afd-politikerin-jeanette-ihme-wegen-volksverhetzung-verurteilt.html']
+  },
+  {
+    'forename': 'Günther',
+    'name': 'Oettinger',
+    'text': ['der mit seiner Position als Digitalkommissar \"nicht happy, aber glücklich\" war', 'der die Netzneutralität gerne mit dem Sozialismus vergleicht', 'der Chinesen mit den Worten \"Schlitzohren und Schlitzaugen\" beschreibt', 'der die Netzneutralität als \"taliban-ähnliches Thema\" bezeichnete'],
+    'src': ['http://www.taz.de/!5033535/', 'https://netzpolitik.org/2015/guenther-oettinger-man-will-den-sozialismus-durch-die-tuer-der-neutralitaet-einfuehren/', 'https://www.stuttgarter-zeitung.de/inhalt.sprueche-von-guenther-oettinger-von-sitting-in-one-boat-bis-zu-einem-glaenzenden-frauenarzt.933a2315-efd3-47ab-82ba-834e99bba599.html', 'https://netzpolitik.org/2015/guenther-oettinger-netzneutralitaet-toetet-befuerworter-sind-taliban-artig/']
+  },
+  {
+    'forename': 'Alexander',
+    'name': 'Dobrindt',
+    'text': ['der \"keine linken Spinnereien dulden\" will', 'Beton-Kopf des Jahres 2017'],
+    'src': ['https://www.morgenpost.de/politik/article212197651/Dobrindt-zweifelt-an-Verstaendigung-mit-Gruenen-fuer-Jamaika.html', 'http://beltretter.de/2017/06/11/beton-kopf-des-jahres-verkehrsminister-alexander-dobrindt/']
+  },
+  {
+    'forename': 'Andreas',
+    'name': 'Scheuer',
+    'text': ['der den \"weltweit größten Stammtisch\" hat'],
+    'src': ['http://www.rp-online.de/politik/deutschland/politischer-aschermittwoch-2017-die-besten-sprueche-iid-1.6646629']
   }
   {
 	'forename': 'Nikolaus',
