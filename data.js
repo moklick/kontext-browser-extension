@@ -296,7 +296,7 @@ var data = [
   {
     'forename': 'Brigitte',
     'name': 'Zypries',
-    'text': ['die nicht weiß, was ein Browser ist, udn auch keinen benennen kann'],
+    'text': ['die nicht weiß, was ein Browser ist, und auch keinen benennen kann'],
     'src': ['https://www.youtube.com/watch?v=EPWrkFlF-r4']
   },
   {
