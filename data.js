@@ -305,4 +305,10 @@ var data = [
     'text': ['der Kritik am neugefassten BKA-Gesetz als linkes Gerülpse bezeichnete', 'der breits zwölfjährige als terrorverdächtig überwachen will', 'der den CCC als „Pseudo-Computerexperten […] ohne Sinn und Verstand und moralisch verkommen“ bezeichnet'],
     'src': ['https://web.archive.org/web/20091122023618/http://www.tagesschau.de/inland/bkagesetz140.html', 'https://web.archive.org/web/20090223111942/http://www.tagesschau.de/inland/datenspeicherung102.html', 'https://www.heise.de/newsticker/meldung/CCC-Kunden-von-Zensurprovidern-sollen-klagen-213829.html']
   },
+  {
+    'forename': 'Peter',
+    'name': 'Gauweiler',
+    'text': ['der AIDS mit Zwangstests und Absonderungen bekämpfen wollte'],
+    'src': ['https://de.wikipedia.org/wiki/Peter_Gauweiler#cite_note-40']
+  },
 ];
