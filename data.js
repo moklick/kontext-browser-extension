@@ -293,4 +293,9 @@ var data = [
     'text': ['der dazu aufrief, türkische Geschäfte zu boykottieren'],
     'src': ['http://www.rp-online.de/nrw/staedte/krefeld/krefeld-kay-gottschalk-afd-ruft-zu-boykott-tuerkischer-geschaefte-auf-aid-1.7345603']
   }
+  {
+	'forename': 'Nikolaus',
+	'name': 'Kramer',
+	'text': ['der die SS-Leibstandarte Adolf Hitler \"nicht grundsätzlich nicht grundsätzlich scheiße\" findet','der Frauen für weniger geeignet für die Politik hält als Männer hält'],
+	'src': ['https://www.ndr.de/nachrichten/mecklenburg-vorpommern/Fragwuerdiges-SS-Foto-in-AfD-Chat-verschickt,afd1592.html', 'https://www.ndr.de/nachrichten/mecklenburg-vorpommern/AfD-Fraktionschef-Maenner-eher-fuer-Politik-gemacht,afd1516.html']
 ];
