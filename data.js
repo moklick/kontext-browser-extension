@@ -298,5 +298,11 @@ var data = [
 	'name': 'Kramer',
 	'text': ['der die SS-Leibstandarte Adolf Hitler \"nicht grundsätzlich scheiße\" findet','der Frauen für weniger geeignet für die Politik hält als Männer hält'],
 	'src': ['https://www.ndr.de/nachrichten/mecklenburg-vorpommern/Fragwuerdiges-SS-Foto-in-AfD-Chat-verschickt,afd1592.html', 'https://www.ndr.de/nachrichten/mecklenburg-vorpommern/AfD-Fraktionschef-Maenner-eher-fuer-Politik-gemacht,afd1516.html']
-  }
+  },
+  {
+    'forename': 'Hans-Peter',
+    'name': 'Uhl',
+    'text': ['der Kritik am neugefassten BKA-Gesetz als linkes Gerülpse bezeichnete', 'der breits zwölfjährige als terrorverdächtig überwachen will', 'der den CCC als „Pseudo-Computerexperten […] ohne Sinn und Verstand und moralisch verkommen“ bezeichnet'],
+    'src': ['https://web.archive.org/web/20091122023618/http://www.tagesschau.de/inland/bkagesetz140.html', 'https://web.archive.org/web/20090223111942/http://www.tagesschau.de/inland/datenspeicherung102.html', 'https://www.heise.de/newsticker/meldung/CCC-Kunden-von-Zensurprovidern-sollen-klagen-213829.html']
+  },
 ];
