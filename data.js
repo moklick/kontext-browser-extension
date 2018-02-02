@@ -292,7 +292,7 @@ var data = [
     'name': 'Gottschalk',
     'text': ['der dazu aufrief, türkische Geschäfte zu boykottieren'],
     'src': ['http://www.rp-online.de/nrw/staedte/krefeld/krefeld-kay-gottschalk-afd-ruft-zu-boykott-tuerkischer-geschaefte-auf-aid-1.7345603']
-  }
+  },
   {
 	'forename': 'Nikolaus',
 	'name': 'Kramer',
