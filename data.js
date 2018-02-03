@@ -308,7 +308,7 @@ var data = [
   {
   'forename': 'Angela',
   'name': 'Merkel',
-  'test': ['für die das Internet Neuland ist'],
+  'text': ['für die das Internet Neuland ist'],
   'src': ['http://www.tagesspiegel.de/politik/die-kanzlerin-und-das-internet-merkels-neuland-wird-zur-lachnummer-im-netz/8375974.html']
   }
 ];
