@@ -6,6 +6,8 @@ const getNewString = (item, isEndOfSentence) => `${item.name}, ${getRandomAdditi
 
 const MAX_OCCURRENCES = 5;
 
+const MAX_OCCURRENCES = 5;
+
 // via http://stackoverflow.com/questions/10730309/find-all-text-nodes-in-html-page#answer-10730777
 function findTextNodes(el) {
   const textNodes = [];
