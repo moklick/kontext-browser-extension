@@ -302,7 +302,7 @@ var data = [
   {
   'forename': 'Martin',
   'name': 'Schulz',
-  'text': ['der keine GroKo möchte'],
-  'src': ['https://www.welt.de/wirtschaft/bilanz/article172740092/No-GroKo-Das-Problem-der-SPD-heisst-Martin-Schulz.html']
+  'text': ['der keine GroKo möchte', 'der garnichts anstrebt'],
+  'src': ['https://www.welt.de/wirtschaft/bilanz/article172740092/No-GroKo-Das-Problem-der-SPD-heisst-Martin-Schulz.html','https://www.youtube.com/watch?v=NcO6Y_tjdnE']
   }
 ];
