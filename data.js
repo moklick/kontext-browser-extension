@@ -296,6 +296,13 @@ var data = [
   {
 	'forename': 'Nikolaus',
 	'name': 'Kramer',
-	'text': ['der die SS-Leibstandarte Adolf Hitler \"nicht grundsätzlich scheiße\" findet','der Frauen für weniger geeignet für die Politik hält als Männer hält'],
+	'text': ['der die SS-Leibstandarte Adolf Hitler \"nicht grundsätzlich scheiße\" findet','der Frauen für weniger geeignet für die Politik hält als Männer'],
 	'src': ['https://www.ndr.de/nachrichten/mecklenburg-vorpommern/Fragwuerdiges-SS-Foto-in-AfD-Chat-verschickt,afd1592.html', 'https://www.ndr.de/nachrichten/mecklenburg-vorpommern/AfD-Fraktionschef-Maenner-eher-fuer-Politik-gemacht,afd1516.html']
+  },
+  {
+  'forename': 'Martin',
+  'name': 'Schulz',
+  'text': ['der keine GroKo möchte'],
+  'src': ['https://www.welt.de/wirtschaft/bilanz/article172740092/No-GroKo-Das-Problem-der-SPD-heisst-Martin-Schulz.html']
+  }
 ];
