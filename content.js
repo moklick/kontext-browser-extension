@@ -1,6 +1,8 @@
 const getNameRegex = name => new RegExp(`\\b${name}\\b`, 'g');
 
-const getNewString = (item, isEndOfSentence) => `${item.name}, ${item.text[Math.floor(item.text.length * Math.random())]}${isEndOfSentence ? '' : ','}`;
+const getRandomAddition = item => item.additions[Math.floor(item.additions.length * Math.random())];
+
+const getNewString = (item, isEndOfSentence) => `${item.name}, ${getRandomAddition(item).text}${isEndOfSentence ? '' : ','}`;
 
 // via http://stackoverflow.com/questions/10730309/find-all-text-nodes-in-html-page#answer-10730777
 function findTextNodes(el) {
