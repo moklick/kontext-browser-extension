@@ -304,5 +304,11 @@ var data = [
   'name': 'Schulz',
   'text': ['der keine GroKo möchte', 'der garnichts anstrebt'],
   'src': ['https://www.welt.de/wirtschaft/bilanz/article172740092/No-GroKo-Das-Problem-der-SPD-heisst-Martin-Schulz.html','https://www.youtube.com/watch?v=NcO6Y_tjdnE']
+  },
+  {
+  'forename': 'Angela',
+  'name': 'Merkel',
+  'test': ['für die das Internet Neuland ist'],
+  'src': ['http://www.tagesspiegel.de/politik/die-kanzlerin-und-das-internet-merkels-neuland-wird-zur-lachnummer-im-netz/8375974.html']
   }
 ];
