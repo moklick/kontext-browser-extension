@@ -2,21 +2,12 @@ const getNameRegex = name => new RegExp(`\\b${name}\\b`, 'g');
 
 const getNewString = (item, isEndOfSentence) => `${item.name}, ${item.text[Math.floor(item.text.length * Math.random())]}${isEndOfSentence ? '' : ','}`;
 
-const MAX_OCCURRENCES = 7;
+const MAX_OCCURRENCES = 5;
 
 // via http://stackoverflow.com/questions/10730309/find-all-text-nodes-in-html-page#answer-10730777
 function findTextNodes(el) {
   const textNodes = [];
-  const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, {
-    acceptNode: function (node) {
-      // reject nodes which contain no alphanumeric characters
-      if (/\w/.test(node.textContent)) {
-        return NodeFilter.FILTER_ACCEPT;
-      } else {
-        return NodeFilter.FILTER_SKIP;
-      }
-    },
-  }, false);
+  const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null, false);
   while (walker.nextNode()) {
     textNodes.push(walker.currentNode);
   }
