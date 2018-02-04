@@ -29,7 +29,7 @@ var data = [
     'additions': [
       {
         'text': 'die Deutschland als "nicht souverän" bezeichnet',
-        'src': 'http://www.zeit.de/politik/deutschland/2017-09/afd-spitzenkandidatin-alice-weidel-email-rechtsradikal'
+        'src': 'https://www.welt.de/politik/article168489086/Alice-Weidel-will-Veroeffentlichung-rassistischer-E-Mail-stoppen.html'
       }
     ]
   },
