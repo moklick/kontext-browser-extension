@@ -30,6 +30,10 @@ var data = [
       {
         'text': 'die Deutschland als "nicht souverän" bezeichnet',
         'src': 'https://www.welt.de/politik/article168489086/Alice-Weidel-will-Veroeffentlichung-rassistischer-E-Mail-stoppen.html'
+      },
+      {
+        'text': 'die Regierungsmitglieder als "Marionetten der Siegermächte" bezeichnet',
+        'src': 'https://www.welt.de/politik/article168489086/Alice-Weidel-will-Veroeffentlichung-rassistischer-E-Mail-stoppen.html'
       }
     ]
   },
