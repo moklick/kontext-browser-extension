@@ -455,6 +455,10 @@ var data = [
       {
         'text': 'der mit der Rechtsextremen Tatjana Festerling bei Legida zusammenarbeiten wollte',
         'src': 'https://kreuzer-leipzig.de/2016/05/24/wie-viel-pegida-partei-will-die-afd-sein/'
+      },
+      {
+        'text': 'der die \"Volksbewaffnung\" gegen \"Koransprengköpfe\" fordert',
+        'src': 'https://www.welt.de/print/die_welt/politik/article170243604/Siegbert-der-Starke-im-AfD-Wunderland.html'
       }
     ]
   },
