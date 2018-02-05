@@ -7,6 +7,11 @@ Browser extension that adds context to certain German politicians.
 
 ## Run
 
+* [Chrome Webstore](https://chrome.google.com/webstore/detail/kontext/mfphpdgjngbopfjgbpkeablkjhlohmkb?hl=de)
+* [Firefox Addons](https://addons.mozilla.org/de/firefox/addon/kontext/)
+
+Direct from source:
+
 1. Download or clone repository
 2. Go to `chrome://extensions/`
 3. Enable `Developer Mode`
