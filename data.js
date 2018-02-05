@@ -463,6 +463,10 @@ var data = [
       {
         'text': 'der die "Volksbewaffnung" gegen "Koransprengköpfe" fordert',
         'src': 'https://www.welt.de/print/die_welt/politik/article170243604/Siegbert-der-Starke-im-AfD-Wunderland.html'
+      },
+      {
+        'text': 'der mit der Hand auf seinem Herzen vor Hitlers Wolfsschanze posierte',
+        'src': 'https://www.facebook.com/photo.php?fbid=1942944496024822&set=pcb.1942945666024705&type=3&theater'
       }
     ]
   },
