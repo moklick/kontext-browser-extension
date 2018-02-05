@@ -30,7 +30,6 @@ function extendText() {
   const range = document.createRange();
 
   findTextNodes(document.body).forEach(node => {
-    node.textContent = node.textContent.replace(/Björn Höcke/g, 'Bernd Höcke');
     items.forEach(item => {
       const indexList = [];
       let rx;
@@ -49,6 +48,7 @@ function extendText() {
         range.insertNode(document.createTextNode(`, ${addition.text}`));
       })
     })
+    node.textContent = node.textContent.replace(/Björn Höcke/g, 'Bernd Höcke');
   })
 }
 
