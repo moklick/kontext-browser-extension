@@ -553,5 +553,25 @@ var data = [
         'src': 'https://www.ndr.de/nachrichten/mecklenburg-vorpommern/AfD-Fraktionschef-Maenner-eher-fuer-Politik-gemacht,afd1516.html'
       }
     ]
+  },
+  {
+    'forename': 'Peter',
+    'name': 'Ramsauer',
+    'additions': [
+      {
+        'text': 'der im Bundestag dagegen gestimmt hat, Vergewaltigung in der Ehe unter Strafe zu stellen',
+        'src': 'https://twitter.com/renatekuenast/status/685743903442624512?lang=de'
+      }
+    ]
+  },
+  {
+    'forename': 'Erika',
+    'name': 'Steinbach',
+    'additions': [
+      {
+        'text': 'die im Bundestag dagegen gestimmt hat, Vergewaltigung in der Ehe unter Strafe zu stellen',
+        'src': 'https://twitter.com/renatekuenast/status/685743903442624512?lang=de'
+      }
+    ]
   }
 ];
