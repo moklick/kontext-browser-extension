@@ -1,40 +1,55 @@
-const getNameRegex = name => new RegExp(`\\b${name}\\b`, 'g');
-
 const getRandomAddition = item => item.additions[Math.floor(item.additions.length * Math.random())];
-
-const getNewString = (item, isEndOfSentence) => `${item.name}, ${getRandomAddition(item).text}${isEndOfSentence ? '' : ','}`;
 
 // via http://stackoverflow.com/questions/10730309/find-all-text-nodes-in-html-page#answer-10730777
 function findTextNodes(el) {
-  const textNodes = [];
+  const nodes = []
   const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null, false);
   while (walker.nextNode()) {
-    textNodes.push(walker.currentNode);
+    nodes.push(walker.currentNode);
   }
-  return textNodes;
+  return nodes;
 }
 
-function checkNames() {
-  data.forEach(item => item.isPresent = document.body.innerHTML.includes(`${item.forename} ${item.name}`));
+function generateLink(src) {
+  const link = document.createElement('a');
+  link.href = src;
+  link.target = 'context-source';
+  link.rel = 'noopener noreferrer';
+  link.title = 'Quelle für diesen Kontext'
+  link.style.cssText = 'text-decoration:underline;color:inherit;cursor:pointer;opacity:.5';
+  link.textContent = '*';
+  return link;
 }
 
 // extend text content with extension sentences
 function extendText() {
+  const items = data
+    .filter(item => document.body.innerHTML.includes(`${item.forename} ${item.name}`))
+    .map(item => Object.assign(item, { regex: new RegExp(`\\b${item.name}\\b`, 'g') }));
+
+  const range = document.createRange();
+
   findTextNodes(document.body).forEach(node => {
-    node.textContent = node.textContent.replace(/Björn Höcke/g, 'Bernd Höcke');
-    data.forEach(item => {
-      if (item.isPresent) {
-        const parts = node.textContent.split(getNameRegex(item.name));
-        for (let i = parts.length - 1; i > 0; i--) {
-          const isEndOfSentence = /^\s*[^a-z 0-9]/i.test(parts[i]) || parts[i] === '';
-          parts.splice(i, 0, getNewString(item, isEndOfSentence));
-        }
-        node.textContent = parts.join('');
+    items.forEach(item => {
+      const indexList = [];
+      let rx;
+      while (rx = item.regex.exec(node.textContent)) {
+        indexList.unshift(rx.index + rx[0].length);
       }
-    });
-  });
+      indexList.forEach(index => {
+        const addition = getRandomAddition(item);
+        const nextChar = node.textContent[index];
+        const isEndOfSentence = !nextChar || nextChar !== ' ';
+        range.setStart(node, index);
+        if (!isEndOfSentence) {
+          range.insertNode(document.createTextNode(','));
+        }
+        range.insertNode(generateLink(addition.src));
+        range.insertNode(document.createTextNode(`, ${addition.text}`));
+      })
+    })
+    node.textContent = node.textContent.replace(/Björn Höcke/g, 'Bernd Höcke');
+  })
 }
 
-checkNames();
 extendText();
-
