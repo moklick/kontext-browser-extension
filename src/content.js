@@ -21,10 +21,8 @@ function generateLink(src) {
   return link;
 }
 
-function makeBerndGreatAgain() {
-  findTextNodes(document.body).forEach(
-    node => (node.textContent = node.textContent.replace(/Björn Höcke/g, 'Bernd Höcke'))
-  );
+function makeBerndGreatAgain(nodes) {
+  nodes.forEach(node => (node.textContent = node.textContent.replace(/Björn Höcke/g, 'Bernd Höcke')));
 }
 
 // extend text content with extension sentences
@@ -51,18 +49,35 @@ function main({ highlight, amount }) {
 
   const textNodes = findTextNodes(document.body);
 
+  const exemptRegex = RegExp(exemptions.join('|'), 'g');
+  const exemptNodes = [];
+  textNodes.forEach(node => {
+    let rx;
+    while ((rx = exemptRegex.exec(node.textContent))) {
+      exemptNodes.push({ node, start: rx.index, end: rx.index + rx[0].length });
+    }
+  });
+
   items.forEach(item => {
     const nameNodes = [];
     textNodes.forEach(node => {
       let rx;
       while ((rx = item.regex.exec(node.textContent))) {
-        nameNodes.push({ node, index: rx.index + rx[0].length });
+        if (
+          !exemptNodes.some(
+            exNode => exNode.node === node && exNode.end > rx.index && exNode.start < rx.index + rx[0].length
+          )
+        ) {
+          nameNodes.push({ node, index: rx.index + rx[0].length });
+        }
       }
     });
+
     switch (amount) {
       case '1':
         addAddition(nameNodes[0], item, highlight);
         break;
+
       case '5':
         for (let i = nameNodes.length - 1; i > 0; i--) {
           let j = Math.floor(Math.random() * (i + 1));
@@ -73,12 +88,14 @@ function main({ highlight, amount }) {
           .sort((a, b) => b.index - a.index)
           .forEach(node => addAddition(node, item, highlight));
         break;
+
       default:
         nameNodes.reverse().forEach(node => addAddition(node, item, highlight));
         break;
     }
   });
-  makeBerndGreatAgain();
+
+  makeBerndGreatAgain(textNodes);
 }
 
 getSettings(main);
