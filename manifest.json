@@ -2,13 +2,16 @@
   "manifest_version": 2,
   "name": "Kontext",
   "description": "Eine Browser-Extension, die Zusatzinformationen zu bestimmten Politikern in Webseiten einfügt.",
-  "version": "1.5",
+  "version": "2.0",
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["data.js", "content.js"]
+      "js": ["src/data.js", "src/content.js"]
     }
   ],
+  "options_ui": {
+    "page": "src/options.html"
+  },
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
