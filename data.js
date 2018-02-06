@@ -554,4 +554,10 @@ var data = [
       }
     ]
   }
+   {
+    'forename': 'Heiko',
+    'name': 'Maas',
+    'text': ['der ein Gesetz erarbeitet hat, welches das Grundrecht auf Presse- und Meinungsfreiheit massiv beschädigen könnte'],
+    'src': ['https://de.wikipedia.org/wiki/Heiko_Maas#Netzwerkdurchsetzungsgesetz']
+  }
 ];
