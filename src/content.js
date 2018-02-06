@@ -21,38 +21,64 @@ function generateLink(src) {
   return link;
 }
 
+function makeBerndGreatAgain() {
+  findTextNodes(document.body).forEach(
+    node => (node.textContent = node.textContent.replace(/Björn Höcke/g, 'Bernd Höcke'))
+  );
+}
+
 // extend text content with extension sentences
-function extendText({ highlight }) {
+function addAddition({ node, index }, item, highlight) {
+  if (!node) return false;
+  const addition = getRandomAddition(item);
+  const nextChar = node.textContent[index];
+  const isEndOfSentence = !nextChar || nextChar !== ' ';
+  const range = document.createRange();
+  range.setStart(node, index);
+  if (!isEndOfSentence) {
+    range.insertNode(document.createTextNode(','));
+  }
+  if (highlight) {
+    range.insertNode(generateLink(addition.src));
+  }
+  range.insertNode(document.createTextNode(`, ${addition.text}`));
+}
+
+function main({ highlight, amount }) {
   const items = data
     .filter(item => document.body.innerHTML.includes(`${item.forename} ${item.name}`))
     .map(item => Object.assign(item, { regex: new RegExp(`\\b${item.name}\\b`, 'g') }));
 
-  const range = document.createRange();
+  const textNodes = findTextNodes(document.body);
 
-  findTextNodes(document.body).forEach(node => {
-    items.forEach(item => {
-      const indexList = [];
+  items.forEach(item => {
+    const nameNodes = [];
+    textNodes.forEach(node => {
       let rx;
       while ((rx = item.regex.exec(node.textContent))) {
-        indexList.unshift(rx.index + rx[0].length);
+        nameNodes.push({ node, index: rx.index + rx[0].length });
       }
-      indexList.forEach(index => {
-        const addition = getRandomAddition(item);
-        const nextChar = node.textContent[index];
-        const isEndOfSentence = !nextChar || nextChar !== ' ';
-        range.setStart(node, index);
-        if (!isEndOfSentence) {
-          range.insertNode(document.createTextNode(','));
-        }
-
-        if (highlight) {
-          range.insertNode(generateLink(addition.src));
-        }
-        range.insertNode(document.createTextNode(`, ${addition.text}`));
-      });
     });
-    node.textContent = node.textContent.replace(/Björn Höcke/g, 'Bernd Höcke');
+    switch (amount) {
+      case '1':
+        addAddition(nameNodes[0], item, highlight);
+        break;
+      case '5':
+        for (let i = nameNodes.length - 1; i > 0; i--) {
+          let j = Math.floor(Math.random() * (i + 1));
+          [nameNodes[i], nameNodes[j]] = [nameNodes[j], nameNodes[i]];
+        }
+        nameNodes
+          .splice(0, 5)
+          .sort((a, b) => b.index - a.index)
+          .forEach(node => addAddition(node, item, highlight));
+        break;
+      default:
+        nameNodes.reverse().forEach(node => addAddition(node, item, highlight));
+        break;
+    }
   });
+  makeBerndGreatAgain();
 }
 
-getSettings(extendText);
+getSettings(main);
