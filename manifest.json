@@ -6,7 +6,7 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["src/options.js", "src/data.js", "src/content.js"]
+      "js": ["src/settings.js", "src/data.js", "src/content.js"]
     }
   ],
   "options_ui": {
