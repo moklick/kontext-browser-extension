@@ -549,7 +549,7 @@ var data = [
         'src': 'https://www.ndr.de/nachrichten/mecklenburg-vorpommern/Fragwuerdiges-SS-Foto-in-AfD-Chat-verschickt,afd1592.html'
       },
       {
-        'text': 'der Frauen für weniger geeignet für die Politik hält als Männer hält',
+        'text': 'der Frauen für weniger geeignet für die Politik hält als Männer',
         'src': 'https://www.ndr.de/nachrichten/mecklenburg-vorpommern/AfD-Fraktionschef-Maenner-eher-fuer-Politik-gemacht,afd1516.html'
       }
     ]
