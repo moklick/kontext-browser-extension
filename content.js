@@ -44,7 +44,8 @@ function extendText() {
         if (!isEndOfSentence) {
           range.insertNode(document.createTextNode(','));
         }
-        range.insertNode(generateLink(addition.src));
+        // we will activate this when we have an option site
+        // range.insertNode(generateLink(addition.src));
         range.insertNode(document.createTextNode(`, ${addition.text}`));
       })
     })
