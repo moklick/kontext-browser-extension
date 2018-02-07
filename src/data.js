@@ -1,4 +1,4 @@
-const data = [
+var data = [
   {
     'forename': 'Björn',
     'name': 'Höcke',
@@ -555,8 +555,3 @@ const data = [
     ]
   }
 ];
-
-const exemptions = [
-  "Wolfgang Petry",
-  "Junge Alternative"
-]
