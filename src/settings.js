@@ -1,6 +1,6 @@
 const defaultSettings = {
   highlight: true,
-  amount: 5
+  amount: "5"
 };
 
 const storageAPI = (() => {
