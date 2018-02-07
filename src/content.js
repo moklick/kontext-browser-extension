@@ -84,7 +84,7 @@ function main({ highlight, amount }) {
           [nameNodes[i], nameNodes[j]] = [nameNodes[j], nameNodes[i]];
         }
         nameNodes
-          .splice(0, 5)
+          .slice(0, 5)
           .sort((a, b) => b.index - a.index)
           .forEach(node => addAddition(node, item, highlight));
         break;
