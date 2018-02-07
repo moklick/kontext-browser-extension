@@ -14,11 +14,6 @@
     "default_popup": "src/options.html",
     "default_title": "Kontext"
   },
-  "permissions": [
-    "storage",
-    "http://*/*",
-    "https://*/*"
-  ],
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
