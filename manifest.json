@@ -9,9 +9,10 @@
       "js": ["src/settings.js", "src/data.js", "src/content.js"]
     }
   ],
-  "options_ui": {
-    "page": "src/options.html",
-    "chrome_style": true
+  "browser_action": {
+    "default_icon": "icons/icon48.png",
+    "default_popup": "src/options.html",
+    "default_title": "Kontext"
   },
   "icons": {
     "16": "icons/icon16.png",
