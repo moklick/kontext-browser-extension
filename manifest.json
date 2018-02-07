@@ -10,7 +10,7 @@
     }
   ],
   "browser_action": {
-    "default_icon": "icons/icon16.png",
+    "default_icon": "icons/icon48.png",
     "default_popup": "src/options.html",
     "default_title": "Kontext"
   },
