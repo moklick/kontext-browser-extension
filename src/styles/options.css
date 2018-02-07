@@ -5,6 +5,7 @@ body {
   padding: 0 1em 1em 1em;
   line-height: 1.4;
   min-width: 256px;
+  font-size: 12px;
 }
 
 .headline {
