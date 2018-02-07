@@ -21,5 +21,10 @@
   },
   "permissions": [
     "storage"
-  ]
+  ],
+  "applications": {
+    "gecko": {
+      "id": "hi@kontext.fyi"
+    }
+  }
 }
