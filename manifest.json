@@ -13,11 +13,6 @@
     "page": "src/options.html",
     "chrome_style": true
   },
-  "permissions": [
-    "storage",
-    "http://*/*",
-    "https://*/*"
-  ],
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
