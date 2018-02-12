@@ -286,5 +286,23 @@ var data = [
     'name': 'Brandner',
     'text': ['der politische Gegner als \"Ergebnis von Sodomie und Inzucht\" bezeichnet'],
     'src': ['https://www.noz.de/deutschland-welt/politik/artikel/955751/wie-rechts-ist-die-afd']
+  },
+  {
+    'forename': 'Herbert',
+    'name': 'Kickl',
+    'text': ['der Asylwerber \"konzentriert\" an einem Ort halten will'],
+    'src': ['http://orf.at/stories/2422072/']
+  },
+    {
+    'forename': 'Wolfgang',
+    'name': 'Sobotka',
+    'text': ['der Milliarden an Wohnbauförderung verspekuliert hat'],
+    'src': ['https://diepresse.com/home/wirtschaft/economist/1324550/Das-niederoesterreichische-WohnbaugeldVoodoo']
+  },
+  {
+    'forename': 'Heinz-Christian',
+    'name': 'Strache',
+    'text': ['der an Wehrsportübungen teilgenommen hat'],
+    'src': ['http://gfx.sueddeutsche.de/apps/e563408/www/']
   }
 ];
