@@ -54,6 +54,10 @@ const data = [
       {
         'text': 'der Verständnis für den Massenmörder Anders Breivik gezeigt hat',
         'src': 'http://www.tagesspiegel.de/politik/jens-maier-aus-sachsen-afd-politiker-aeussert-verstaendnis-fuer-rechtsterrorist-anders-breivik/19698996.html'
+      },
+      {
+        'text': 'der Noah Becker als "kleinen Halbneger" bezeichnet',
+        'src': 'http://www.zeit.de/politik/deutschland/2018-02/jens-maier-afd-staatsanwaltschaft-ermittlung-tweet'
       }
     ]
   },
@@ -236,6 +240,10 @@ const data = [
       {
         'text': 'der Veranstaltungen mit Neonazis durchführt',
         'src': 'http://www.zeit.de/2016/05/afd-andre-poggenburg-sachsen-anhalt-asylpolitik-wahlkampf'
+      },
+      {
+        'text': 'der Türken in Deutschland als "Kümmelhändler" und "Kameltreiber" bezeichnet',
+        'src': 'http://www.zeit.de/politik/deutschland/2018-02/andre-poggenburg-afd-tuerken-frank-walter-steinmeier'
       }
     ]
   },
@@ -551,6 +559,16 @@ const data = [
       {
         'text': 'der Frauen für weniger geeignet für die Politik hält als Männer',
         'src': 'https://www.ndr.de/nachrichten/mecklenburg-vorpommern/AfD-Fraktionschef-Maenner-eher-fuer-Politik-gemacht,afd1516.html'
+      }
+    ]
+  }
+  {
+    'forename': 'Jörg',
+    'name': 'Nobis',
+    'additions': [
+      {
+        'text': 'der "den Schulzzug in den Hochofen" fahren möchte',
+        'src': 'https://www.welt.de/politik/deutschland/article173378611/AfD-Nach-Hochofen-Tweet-Anzeige-gegen-Kieler-Fraktionschef-Joerg-Nobis.html'
       }
     ]
   }
