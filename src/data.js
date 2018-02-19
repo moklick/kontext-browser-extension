@@ -56,7 +56,7 @@ const data = [
         'src': 'http://www.tagesspiegel.de/politik/jens-maier-aus-sachsen-afd-politiker-aeussert-verstaendnis-fuer-rechtsterrorist-anders-breivik/19698996.html'
       },
       {
-        'text': 'der Noah Becker als "kleinen Halbneger" bezeichnet',
+        'text': 'der Noah Becker rasstisch beleidigt hat',
         'src': 'http://www.zeit.de/politik/deutschland/2018-02/jens-maier-afd-staatsanwaltschaft-ermittlung-tweet'
       }
     ]
@@ -561,7 +561,7 @@ const data = [
         'src': 'https://www.ndr.de/nachrichten/mecklenburg-vorpommern/AfD-Fraktionschef-Maenner-eher-fuer-Politik-gemacht,afd1516.html'
       }
     ]
-  }
+  },
   {
     'forename': 'Jörg',
     'name': 'Nobis',
