@@ -91,10 +91,10 @@ const data = [
         'text': 'der im Bundestag dagegen gestimmt hat, Vergewaltigung in der Ehe unter Strafe zu stellen',
         'src': 'https://twitter.com/renatekuenast/status/685743903442624512?lang=de'
       },
-+      {
-+        'text': 'der AIDS-Erkrankte in gesonderten "Wohnprojekten" unterbringen wollte',
-+        'src': 'http://www.spiegel.de/spiegel/print/d-13520785.html'
-       }
+      {
+        'text': 'der AIDS-Erkrankte in gesonderten "Wohnprojekten" unterbringen wollte',
+        'src': 'http://www.spiegel.de/spiegel/print/d-13520785.html'
+      }
     ]
   },
   {
