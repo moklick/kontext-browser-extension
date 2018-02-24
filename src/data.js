@@ -6,6 +6,10 @@ const data = [
       {
         'text': 'der gute Kontakte zur NPD hat',
         'src': 'https://de.wikipedia.org/wiki/Bj%C3%B6rn_H%C3%B6cke#Vermutete_Autorschaft_in_Zeitschriften_des_NPD-Umfelds'
+      },
+      {
+        'text': 'der Adolf Hitler nicht für "absolut böse" hält',
+        'src': 'https://www.welt.de/politik/deutschland/article162616473/Bjoern-Hoecke-hat-eine-irritierende-Ansicht-zu-Adolf-Hitler.html'
       }
     ]
   },
@@ -33,6 +37,10 @@ const data = [
       },
       {
         'text': 'die Regierungsmitglieder als "Marionetten der Siegermächte" bezeichnet',
+        'src': 'https://www.welt.de/politik/article168489086/Alice-Weidel-will-Veroeffentlichung-rassistischer-E-Mail-stoppen.html'
+      },
+      {
+        'text': 'die den unter Nazis beliebten Begriff der "Überfremdung" nutzt',
         'src': 'https://www.welt.de/politik/article168489086/Alice-Weidel-will-Veroeffentlichung-rassistischer-E-Mail-stoppen.html'
       }
     ]
@@ -82,7 +90,11 @@ const data = [
       {
         'text': 'der im Bundestag dagegen gestimmt hat, Vergewaltigung in der Ehe unter Strafe zu stellen',
         'src': 'https://twitter.com/renatekuenast/status/685743903442624512?lang=de'
-      }
+      },
++      {
++        'text': 'der AIDS-Erkrankte in gesonderten "Wohnprojekten" unterbringen wollte',
++        'src': 'http://www.spiegel.de/spiegel/print/d-13520785.html'
+       }
     ]
   },
   {
@@ -200,6 +212,10 @@ const data = [
       {
         'text': 'der laut einem Münchner Gericht verfassungsfeindliche Bestrebungen zeigt',
         'src': 'http://www.tagesspiegel.de/politik/neue-abgeordnete-das-sind-die-radikalen-in-der-afd-fraktion/20361302.html'
+      },
+      {
+        'text': 'der die Entsorgung von Menschen fordert',
+        'src': 'http://www.faz.net/aktuell/politik/inland/ex-afd-landeschef-petr-bystron-rede-im-gauland-jargon-15310769.html'
       }
     ]
   },
@@ -244,6 +260,10 @@ const data = [
       {
         'text': 'der Türken in Deutschland als "Kümmelhändler" und "Kameltreiber" bezeichnet',
         'src': 'http://www.zeit.de/politik/deutschland/2018-02/andre-poggenburg-afd-tuerken-frank-walter-steinmeier'
+      },
+      {
+        'text': 'der "Wucherungen" am "deutschen Volkskörper" loswerden will',
+        'src': 'http://www.deutschlandfunk.de/rede-ueber-linke-studenten-afd-vorstand-befasst-sich-mit.1773.de.html?dram:article_id=379183'
       }
     ]
   },
@@ -382,6 +402,14 @@ const data = [
       {
         'text': 'der die Kanzlerin als "Merkelnutte" bezeichnet haben soll',
         'src': 'http://www.spiegel.de/politik/deutschland/bundestag-wann-die-afd-beim-gedenken-an-auschwitz-befreiung-nicht-klatschte-a-1190774.html'
+      },
+      {
+        'text': 'der vom "Volkskörper" spricht',
+        'src': 'http://www.spiegel.de/politik/deutschland/peter-boehringer-e-mail-bringt-afd-mann-in-erklaerungsnot-a-1192686.html'
+      },
+      {
+        'text': 'der Einwanderung als "Genozid" bezeichnet',
+        'src': 'http://www.spiegel.de/politik/deutschland/peter-boehringer-e-mail-bringt-afd-mann-in-erklaerungsnot-a-1192686.html'
       }
     ]
   },
@@ -563,12 +591,16 @@ const data = [
     ]
   },
   {
-    'forename': 'Jörg',
-    'name': 'Nobis',
+    'forename': 'Holger',
+    'name': 'Arppe',
     'additions': [
       {
-        'text': 'der "den Schulzzug in den Hochofen" fahren möchte',
-        'src': 'https://www.welt.de/politik/deutschland/article173378611/AfD-Nach-Hochofen-Tweet-Anzeige-gegen-Kieler-Fraktionschef-Joerg-Nobis.html'
+        'text': 'der dafür wirbt, im Fall des Scheiterns der AfD "einen Schrank voller Gewehre und eine Munitionskiste in der Garage" zu haben',
+        'src': 'https://www.ndr.de/nachrichten/mecklenburg-vorpommern/Rassistische-Chats-Fraktionsvize-verlaesst-AfD,afd1204.html'
+      },
+      {
+        'text': 'der die "widerlichen grünen Bolschewisten" eine Grube ausheben, alle rein und Löschkalk oben drauf',
+        'src': 'https://www.ndr.de/nachrichten/mecklenburg-vorpommern/Rassistische-Chats-Fraktionsvize-verlaesst-AfD,afd1204.html'
       }
     ]
   }
