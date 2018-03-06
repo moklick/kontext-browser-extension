@@ -410,6 +410,10 @@ const data = [
       {
         'text': 'der Einwanderung als "Genozid" bezeichnet',
         'src': 'http://www.spiegel.de/politik/deutschland/peter-boehringer-e-mail-bringt-afd-mann-in-erklaerungsnot-a-1192686.html'
+      },
+      {
+        'text': 'der das Bundesverfassungsgericht als "Hure Justizia" bezeichnet',
+        'src': 'http://www.spiegel.de/politik/deutschland/peter-boehringer-erneut-schmaeh-e-mail-mit-afd-mann-als-absender-a-1196379.html'
       }
     ]
   },
