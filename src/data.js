@@ -236,6 +236,10 @@ const data = [
       {
         'text': 'der Vorsitzender des rechtsextremen Vereins Kultur- und Zeitgeschichte, Archiv der Zeit war',
         'src': 'http://www.maz-online.de/Brandenburg/Der-Brandenburger-AfD-Landtagsabgeordnete-Andreas-Kalbitz-geraet-wegen-einer-Mitgliedschaft-in-einem-rechten-Verein-unter-Druck'
+      },
+      {
+        'text': 'der 2007 beim Pfingstlager der rechtsextremen und später verbotenen Heimattreuen Deutschen Jugend war',
+        'src': 'http://www.zeit.de/politik/deutschland/2018-03/andreas-kalbitz-afd-heimattreue-deutsche-jugend-rechtsextremismus'
       }
     ]
   },
