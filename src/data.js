@@ -132,7 +132,7 @@ const data = [
     'name': 'Nerstheimer',
     'additions': [
       {
-        'text': 'der Homosexuelle als "degenierte Spezies" bezeichnet',
+        'text': 'der Homosexuelle als "degenerierte Spezies" bezeichnet',
         'src': 'https://www.neues-deutschland.de/artikel/1070234.afd-im-abgeordnetenhaus-verschwoerung-und-hass.html'
       }
     ]
