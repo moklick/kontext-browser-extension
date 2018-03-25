@@ -19,7 +19,7 @@ const data = [
     'additions': [
       {
         'text': 'der stolz auf die Leistungen deutscher Soldaten im zweiten Weltkrieg ist',
-        'src': 'https://www.buzzfeed.com/marcusengert/afd-spitzenkandidat-gauland-findet-deutsche-sollten-stolz?utm_term=.mdPMqlyw2v#.muP3gEdlzW'
+        'src': 'https://www.buzzfeed.com/marcusengert/afd-spitzenkandidat-gauland-findet-deutsche-sollten-stolz'
       },
       {
         'text': 'der Menschen entsorgen lassen will',
@@ -377,7 +377,7 @@ const data = [
     'additions': [
       {
         'text': 'der mit zahlreichen Nazis auf Facebook befreundet ist',
-        'src': 'https://www.buzzfeed.com/marcusengert/fast-50-bundestagskandidaten-der-afd-grenzen-sich-nicht-von?utm_term=.puYAXweYRB#.xgj8G3xb7r'
+        'src': 'https://www.buzzfeed.com/marcusengert/fast-50-bundestagskandidaten-der-afd-grenzen-sich-nicht-von'
       },
       {
         'text': 'der enger Weggefährte von Bernd Höcke ist',
