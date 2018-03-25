@@ -444,7 +444,8 @@ const data = [
         'src': 'http://www.tagesspiegel.de/themen/reportage/rechte-vor-einzug-in-den-bundestag-so-extrem-sind-die-kandidaten-der-afd/20350578.html'
       },
       {
-        'text': 'der Mitglied bei der islamfeindlichen Partei "Die Freiheit" war'
+        'text': 'der Mitglied bei der islamfeindlichen Partei "Die Freiheit" war',
+        'src': 'https://www.swr.de/swraktuell/diewahlbeiuns/rp/portraet-sebastian-muenzenmaier-afd-junges-konsens-kandidat/-/id=13075562/did=19140180/nid=13075562/tsun8l/index.html'
       }
     ]
   },
