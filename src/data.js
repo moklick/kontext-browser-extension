@@ -14,6 +14,20 @@ const data = [
     ]
   },
   {
+    'forename': 'Angela',
+    'name': 'Merkel',
+    'additions': [
+      {
+        'text': 'für die das Internet Neuland ist',
+        'src': 'http://www.spiegel.de/netzwelt/netzpolitik/kanzlerin-merkel-nennt-bei-obama-besuch-das-internet-neuland-a-906673.html'
+      },
+      {
+        'text': 'die findet, dass auspähen unter Freunden gar nicht geht, es seie denn, man ist der BND',
+        'src': 'https://www.tagesschau.de/inland/merkel-nsa-ausschuss-101.html'
+      }
+    ]
+  },  
+  {
     'forename': 'Alexander',
     'name': 'Gauland',
     'additions': [
@@ -24,6 +38,20 @@ const data = [
       {
         'text': 'der Menschen entsorgen lassen will',
         'src': 'http://www.faz.net/aktuell/politik/bundestagswahl/afd-alexander-gauland-traeumt-von-entsorgung-aydan-oezoguz-15171141.html'
+      }
+    ]
+  },
+    {
+    'forename': 'Alexander',
+    'name': 'Dobrindt',
+    'additions': [
+      {
+        'text': 'der es nicht in Ordnung findet, wenn Ausländer von ihren Rechten gebrauch machen',
+        'src': 'https://www.tagesschau.de/inland/dobrindt-abschiebung-101.html'
+      },
+      {
+        'text': 'der gerne Ausländer abkassieren möchte',
+        'src': 'https://www.tagesschau.de/inland/pkw-maut-dobrindt-101.html'
       }
     ]
   },
