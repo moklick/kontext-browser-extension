@@ -13,7 +13,7 @@ const data = [
       },
       {
 	'text': 'der genetische Unterschiede im Sexualverhalten von Afrikanern und Europäern sieht'
-	'src': 'https://de.wikipedia.org/wiki/Bj%C3%B6rn_H%C3%B6cke#Rede_am_Institut_f%C3%BCr_Staatspolitik'
+	'src': 'https://daserste.ndr.de/panorama/aktuell/AfD-Hoeckes-Lehre-von-Menschentypen,hoeckeslehre100.html'
       }
 
     ]
