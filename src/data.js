@@ -10,7 +10,12 @@ const data = [
       {
         'text': 'der Adolf Hitler nicht für "absolut böse" hält',
         'src': 'https://www.welt.de/politik/deutschland/article162616473/Bjoern-Hoecke-hat-eine-irritierende-Ansicht-zu-Adolf-Hitler.html'
+      },
+      {
+	'text': 'der genetische Unterschiede im Sexualverhalten von Afrikanern und Europäern sieht'
+	'src': 'https://de.wikipedia.org/wiki/Bj%C3%B6rn_H%C3%B6cke#Rede_am_Institut_f%C3%BCr_Staatspolitik'
       }
+
     ]
   },
   {
