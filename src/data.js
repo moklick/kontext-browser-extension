@@ -31,7 +31,7 @@ const data = [
       },
       {
 
-        'text': 'der meint Hitler und die Nazis seien nur ein Vogelschiss in über 1000 Jahren erfolgreicher deutscher Geschichte',
+        'text': 'laut dem Hitler und die Nazis nur ein "Vogelschiss" in über 1000 Jahren erfolgreicher deutscher Geschichte  seien',
         'src': 'http://www.fr.de/politik/afd-gauland-bezeichnet-ns-zeit-als-vogelschiss-in-der-geschichte-a-1517107'
       }
     ]
