@@ -18,7 +18,7 @@ In Firefox
 1. Download or clone repository
 1. Go to `about:debugging`
 1. Load Temporary Add-On
-1. Chose manifest.json
+1. Choose manifest.json
 
 In Chrome
 
