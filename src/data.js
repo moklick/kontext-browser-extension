@@ -28,6 +28,11 @@ const data = [
       {
         'text': 'der Menschen entsorgen lassen will',
         'src': 'http://www.faz.net/aktuell/politik/bundestagswahl/afd-alexander-gauland-traeumt-von-entsorgung-aydan-oezoguz-15171141.html'
+      },
+      {
+
+        'text': 'der meint Hitler und die Nazis seien nur ein Vogelschiss in über 1000 Jahren erfolgreicher deutscher Geschichte',
+        'src': 'http://www.fr.de/politik/afd-gauland-bezeichnet-ns-zeit-als-vogelschiss-in-der-geschichte-a-1517107'
       }
     ]
   },
