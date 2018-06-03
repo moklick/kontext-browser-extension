@@ -13,7 +13,16 @@ Also available at
 
 ## Run
 
+In Firefox
+
 1. Download or clone repository
-2. Go to `chrome://extensions/`
-3. Enable `Developer Mode`
-4. Load unpacked extension
+1. Go to `about:debugging`
+1. Load Temporary Add-On
+1. Choose manifest.json
+
+In Chrome
+
+1. Download or clone repository
+1. Go to `chrome://extensions/`
+1. Enable `Developer Mode`
+1. Load unpacked extension
