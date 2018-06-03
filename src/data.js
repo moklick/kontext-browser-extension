@@ -12,10 +12,9 @@ const data = [
         'src': 'https://www.welt.de/politik/deutschland/article162616473/Bjoern-Hoecke-hat-eine-irritierende-Ansicht-zu-Adolf-Hitler.html'
       },
       {
-	'text': 'der genetische Unterschiede im Sexualverhalten von Afrikanern und Europäern sieht'
-	'src': 'https://daserste.ndr.de/panorama/aktuell/AfD-Hoeckes-Lehre-von-Menschentypen,hoeckeslehre100.html'
+        'text': 'der genetische Unterschiede im Sexualverhalten von Afrikanern und Europäern sieht',
+          'src': 'https://daserste.ndr.de/panorama/aktuell/AfD-Hoeckes-Lehre-von-Menschentypen,hoeckeslehre100.html'
       }
-
     ]
   },
   {
@@ -29,6 +28,11 @@ const data = [
       {
         'text': 'der Menschen entsorgen lassen will',
         'src': 'http://www.faz.net/aktuell/politik/bundestagswahl/afd-alexander-gauland-traeumt-von-entsorgung-aydan-oezoguz-15171141.html'
+      },
+      {
+
+        'text': 'laut dem Hitler und die Nazis nur ein "Vogelschiss" in über 1000 Jahren erfolgreicher deutscher Geschichte  seien',
+        'src': 'http://www.fr.de/politik/afd-gauland-bezeichnet-ns-zeit-als-vogelschiss-in-der-geschichte-a-1517107'
       }
     ]
   },
@@ -623,4 +627,4 @@ const data = [
 const exemptions = [
   'Wolfgang Petry',
   'Junge Alternative'
-]
+];
