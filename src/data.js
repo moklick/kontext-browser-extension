@@ -12,10 +12,9 @@ const data = [
         'src': 'https://www.welt.de/politik/deutschland/article162616473/Bjoern-Hoecke-hat-eine-irritierende-Ansicht-zu-Adolf-Hitler.html'
       },
       {
-	'text': 'der genetische Unterschiede im Sexualverhalten von Afrikanern und Europäern sieht'
-	'src': 'https://daserste.ndr.de/panorama/aktuell/AfD-Hoeckes-Lehre-von-Menschentypen,hoeckeslehre100.html'
+        'text': 'der genetische Unterschiede im Sexualverhalten von Afrikanern und Europäern sieht',
+          'src': 'https://daserste.ndr.de/panorama/aktuell/AfD-Hoeckes-Lehre-von-Menschentypen,hoeckeslehre100.html'
       }
-
     ]
   },
   {
@@ -623,4 +622,4 @@ const data = [
 const exemptions = [
   'Wolfgang Petry',
   'Junge Alternative'
-]
+];
