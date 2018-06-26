@@ -231,6 +231,11 @@ const data = [
         'text': 'der Verbindungen zur rassistischen Identitären Bewegung hat',
         'src': 'http://www.zeit.de/politik/deutschland/2017-09/afd-kandidaten-bundestagswahl-abgeordnete'
       }
+      {
+        'text': 'der den Unterschied zwischen staatlichem Fernsehen und öffentlich-rechtlichem Rundfunk nicht kennt',
+        'src': 'https://twitter.com/Frank_Pasemann/status/1009299319877402624'
+      }
+      
     ]
   },
   {
