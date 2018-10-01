@@ -13,7 +13,7 @@ const data = [
       },
       {
         'text': 'der genetische Unterschiede im Sexualverhalten von Afrikanern und Europäern sieht',
-          'src': 'https://daserste.ndr.de/panorama/aktuell/AfD-Hoeckes-Lehre-von-Menschentypen,hoeckeslehre100.html'
+        'src': 'https://daserste.ndr.de/panorama/aktuell/AfD-Hoeckes-Lehre-von-Menschentypen,hoeckeslehre100.html'
       }
     ]
   },
@@ -30,8 +30,7 @@ const data = [
         'src': 'http://www.faz.net/aktuell/politik/bundestagswahl/afd-alexander-gauland-traeumt-von-entsorgung-aydan-oezoguz-15171141.html'
       },
       {
-
-        'text': 'laut dem Hitler und die Nazis nur ein „Vogelschiss“ in über 1000 Jahren erfolgreicher deutscher Geschichte  seien',
+        'text': 'laut dem Hitler und die Nazis nur ein „Vogelschiss“ in über 1000 Jahren erfolgreicher deutscher Geschichte seien',
         'src': 'http://www.fr.de/politik/afd-gauland-bezeichnet-ns-zeit-als-vogelschiss-in-der-geschichte-a-1517107'
       }
     ]
@@ -69,7 +68,7 @@ const data = [
     'name': 'Maier',
     'additions': [
       {
-        'text': 'der Verständnis für den Massenmörder Anders Breivik gezeigt hat',
+        'text': 'der Verständnis für den Massenmörder Anders Breivik zeigt',
         'src': 'http://www.tagesspiegel.de/politik/jens-maier-aus-sachsen-afd-politiker-aeussert-verstaendnis-fuer-rechtsterrorist-anders-breivik/19698996.html'
       },
       {
@@ -111,7 +110,7 @@ const data = [
     'name': 'Weber',
     'additions': [
       {
-        'text': 'der von der „finalen Lösung der Flüchtlingsfrage“ gesprochen hat',
+        'text': 'der von der „finalen Lösung der Flüchtlingsfrage“ spricht',
         'src': 'http://www.spiegel.de/politik/deutschland/manfred-weber-fordert-die-finale-loesung-der-fluechtlingsfrage-a-1186493.html'
       }
     ]
@@ -519,7 +518,7 @@ const data = [
         'src': 'https://www.welt.de/print/die_welt/politik/article170243604/Siegbert-der-Starke-im-AfD-Wunderland.html'
       },
       {
-        'text': 'der mit der Hand auf seinem Herzen vor Hitlers Wolfsschanze posierte',
+        'text': 'der mit der Hand auf seinem Herzen vor Hitlers Wolfsschanze posiert',
         'src': 'https://www.facebook.com/photo.php?fbid=1942944496024822&set=pcb.1942945666024705&type=3&theater'
       }
     ]
@@ -549,7 +548,7 @@ const data = [
     'name': 'Oehme',
     'additions': [
       {
-        'text': 'der mit einem SA-Spruch zur Bundestagswahl geworben hatte',
+        'text': 'der mit einem SA-Spruch zur Bundestagswahl wirbt',
         'src': 'http://www.zeit.de/politik/deutschland/2017-09/afd-kandidaten-bundestagswahl-abgeordnete'
       }
     ]
@@ -589,7 +588,7 @@ const data = [
     'name': 'Gottschalk',
     'additions': [
       {
-        'text': 'der dazu aufrief, türkische Geschäfte zu boykottieren',
+        'text': 'der zum Boykott türkischer Geschäfte aufruft',
         'src': 'http://www.rp-online.de/nrw/staedte/krefeld/krefeld-kay-gottschalk-afd-ruft-zu-boykott-tuerkischer-geschaefte-auf-aid-1.7345603'
       }
     ]
@@ -614,7 +613,7 @@ const data = [
     'additions': [
       {
         'text': 'der dafür wirbt, im Fall des Scheiterns der AfD „einen Schrank voller Gewehre und eine Munitionskiste in der Garage“ zu haben',
-        'src': 'https://www.ndr.de/nachrichten/mecklenburg-vorpommern/Rassistische-Chats-Fraktionsvize-verlaesst-AfD,afd1204.html'
+        'src': 'https://www.welt.de/politik/deutschland/article176353087/Holger-Arppe-AfD-Politiker-wegen-Volksverhetzung-verurteilt.html'
       },
       {
         'text': 'der für die „widerlichen grünen Bolschewisten“ eine Grube ausheben, alle rein und Löschkalk oben drauf möchte',
