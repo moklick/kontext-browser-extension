@@ -102,6 +102,10 @@ const data = [
       {
         'text': 'der AIDS-Erkrankte in gesonderten „Wohnprojekten“ unterbringen wollte',
         'src': 'http://www.spiegel.de/spiegel/print/d-13520785.html'
+      },
+      {
+        'text': 'der Migration als „Mutter aller Probleme“ sieht',
+        'src': 'https://www.tagesschau.de/inland/seehofer-migration-mutter-aller-probleme-101.html'
       }
     ]
   },
