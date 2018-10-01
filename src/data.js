@@ -624,6 +624,16 @@ const data = [
         'src': 'https://www.focus.de/politik/deutschland/holger-arppe-afd-politiker-traeumt-von-apartheid-staat-und-fallbeil-fuer-rotgruenes-geschmeiss_id_7538862.html'
       }
     ]
+  },
+  {
+    'forename': 'Markus',
+    'name': 'Söder',
+    'additions': [
+      {
+        'text': 'der sich gerne in die Berichterstattung des ZDF einmischt',
+        'src': 'http://www.spiegel.de/politik/deutschland/markus-soeder-intervenierte-mehrfach-beim-zdf-a-865136.html'
+      }
+    ]
   }
 ];
 
