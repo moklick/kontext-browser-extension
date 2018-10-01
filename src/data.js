@@ -8,12 +8,12 @@ const data = [
         'src': 'https://de.wikipedia.org/wiki/Bj%C3%B6rn_H%C3%B6cke#Vermutete_Autorschaft_in_Zeitschriften_des_NPD-Umfelds'
       },
       {
-        'text': 'der Adolf Hitler nicht für "absolut böse" hält',
+        'text': 'der Adolf Hitler nicht für „absolut böse“ hält',
         'src': 'https://www.welt.de/politik/deutschland/article162616473/Bjoern-Hoecke-hat-eine-irritierende-Ansicht-zu-Adolf-Hitler.html'
       },
       {
         'text': 'der genetische Unterschiede im Sexualverhalten von Afrikanern und Europäern sieht',
-          'src': 'https://daserste.ndr.de/panorama/aktuell/AfD-Hoeckes-Lehre-von-Menschentypen,hoeckeslehre100.html'
+        'src': 'https://daserste.ndr.de/panorama/aktuell/AfD-Hoeckes-Lehre-von-Menschentypen,hoeckeslehre100.html'
       }
     ]
   },
@@ -30,8 +30,7 @@ const data = [
         'src': 'http://www.faz.net/aktuell/politik/bundestagswahl/afd-alexander-gauland-traeumt-von-entsorgung-aydan-oezoguz-15171141.html'
       },
       {
-
-        'text': 'laut dem Hitler und die Nazis nur ein "Vogelschiss" in über 1000 Jahren erfolgreicher deutscher Geschichte  seien',
+        'text': 'laut dem Hitler und die Nazis nur ein „Vogelschiss“ in über 1000 Jahren erfolgreicher deutscher Geschichte seien',
         'src': 'http://www.fr.de/politik/afd-gauland-bezeichnet-ns-zeit-als-vogelschiss-in-der-geschichte-a-1517107'
       }
     ]
@@ -41,15 +40,15 @@ const data = [
     'name': 'Weidel',
     'additions': [
       {
-        'text': 'die Deutschland als "nicht souverän" bezeichnet',
+        'text': 'die Deutschland als „nicht souverän“ bezeichnet',
         'src': 'https://www.welt.de/politik/article168489086/Alice-Weidel-will-Veroeffentlichung-rassistischer-E-Mail-stoppen.html'
       },
       {
-        'text': 'die Regierungsmitglieder als "Marionetten der Siegermächte" bezeichnet',
+        'text': 'die Regierungsmitglieder als „Marionetten der Siegermächte“ bezeichnet',
         'src': 'https://www.welt.de/politik/article168489086/Alice-Weidel-will-Veroeffentlichung-rassistischer-E-Mail-stoppen.html'
       },
       {
-        'text': 'die den unter Nazis beliebten Begriff der "Überfremdung" nutzt',
+        'text': 'die den unter Nazis beliebten Begriff der „Überfremdung“ nutzt',
         'src': 'https://www.welt.de/politik/article168489086/Alice-Weidel-will-Veroeffentlichung-rassistischer-E-Mail-stoppen.html'
       }
     ]
@@ -59,7 +58,7 @@ const data = [
     'name': 'Meuthen',
     'additions': [
       {
-        'text': 'der von einem "links-rot-grün verseuchten 68er-Deutschland" spricht',
+        'text': 'der von einem „links-rot-grün verseuchten 68er-Deutschland“ spricht',
         'src': 'https://www.stuttgarter-nachrichten.de/inhalt.bundesparteitag-in-stuttgart-afd-will-den-bundespraesidenten-stellen.a4c235d3-4b5e-44fe-9bea-24f2befa986c.html'
       }
     ]
@@ -69,7 +68,7 @@ const data = [
     'name': 'Maier',
     'additions': [
       {
-        'text': 'der Verständnis für den Massenmörder Anders Breivik gezeigt hat',
+        'text': 'der Verständnis für den Massenmörder Anders Breivik zeigt',
         'src': 'http://www.tagesspiegel.de/politik/jens-maier-aus-sachsen-afd-politiker-aeussert-verstaendnis-fuer-rechtsterrorist-anders-breivik/19698996.html'
       },
       {
@@ -101,8 +100,12 @@ const data = [
         'src': 'https://twitter.com/renatekuenast/status/685743903442624512?lang=de'
       },
       {
-        'text': 'der AIDS-Erkrankte in gesonderten "Wohnprojekten" unterbringen wollte',
+        'text': 'der AIDS-Erkrankte in gesonderten „Wohnprojekten“ unterbringen wollte',
         'src': 'http://www.spiegel.de/spiegel/print/d-13520785.html'
+      },
+      {
+        'text': 'der Migration als „Mutter aller Probleme“ sieht',
+        'src': 'https://www.tagesschau.de/inland/seehofer-migration-mutter-aller-probleme-101.html'
       }
     ]
   },
@@ -111,7 +114,7 @@ const data = [
     'name': 'Weber',
     'additions': [
       {
-        'text': 'der von der "finalen Lösung der Flüchtlingsfrage" gesprochen hat',
+        'text': 'der von der „finalen Lösung der Flüchtlingsfrage“ spricht',
         'src': 'http://www.spiegel.de/politik/deutschland/manfred-weber-fordert-die-finale-loesung-der-fluechtlingsfrage-a-1186493.html'
       }
     ]
@@ -141,7 +144,7 @@ const data = [
     'name': 'Nerstheimer',
     'additions': [
       {
-        'text': 'der Homosexuelle als "degenerierte Spezies" bezeichnet',
+        'text': 'der Homosexuelle als „degenerierte Spezies“ bezeichnet',
         'src': 'https://www.neues-deutschland.de/artikel/1070234.afd-im-abgeordnetenhaus-verschwoerung-und-hass.html'
       }
     ]
@@ -151,7 +154,7 @@ const data = [
     'name': 'Pazderski',
     'additions': [
       {
-        'text': 'der vom "Volkssturm der Argumente" spricht',
+        'text': 'der vom „Volkssturm der Argumente“ spricht',
         'src': 'https://www.neues-deutschland.de/artikel/1070234.afd-im-abgeordnetenhaus-verschwoerung-und-hass.html'
       }
     ]
@@ -161,7 +164,7 @@ const data = [
     'name': 'Frohnmaier',
     'additions': [
       {
-        'text': 'der "volksfeindliche Parteien" aus Deutschland "heraustreiben will"',
+        'text': 'der „volksfeindliche Parteien“ aus Deutschland „heraustreiben will“',
         'src': 'http://meedia.de/2017/05/10/zitate-streit-afd-politiker-markus-frohnmaier-verliert-vor-gericht-gegen-ulmer-lokal-portal/'
       },
       {
@@ -185,7 +188,7 @@ const data = [
     'name': 'von Gottberg',
     'additions': [
       {
-        'text': 'der den Holocaust als "Mittel zur Kriminalisierung der Deutschen" bezeichnet',
+        'text': 'der den Holocaust als „Mittel zur Kriminalisierung der Deutschen“ bezeichnet',
         'src': 'http://www.zeit.de/politik/deutschland/2017-09/afd-kandidaten-bundestagswahl-abgeordnete'
       }
     ]
@@ -195,7 +198,7 @@ const data = [
     'name': 'Keuter',
     'additions': [
       {
-        'text': 'der auf Pegida-Demos "Lügenpresse" mitskandiert',
+        'text': 'der auf Pegida-Demos „Lügenpresse“ mitskandiert',
         'src': 'http://www.tagesspiegel.de/politik/neue-abgeordnete-das-sind-die-radikalen-in-der-afd-fraktion/20361302.html'
       }
     ]
@@ -271,11 +274,11 @@ const data = [
         'src': 'http://www.zeit.de/2016/05/afd-andre-poggenburg-sachsen-anhalt-asylpolitik-wahlkampf'
       },
       {
-        'text': 'der Türken in Deutschland als "Kümmelhändler" und "Kameltreiber" bezeichnet',
+        'text': 'der Türken in Deutschland als „Kümmelhändler“ und „Kameltreiber“ bezeichnet',
         'src': 'http://www.zeit.de/politik/deutschland/2018-02/andre-poggenburg-afd-tuerken-frank-walter-steinmeier'
       },
       {
-        'text': 'der "Wucherungen" am "deutschen Volkskörper" loswerden will',
+        'text': 'der „Wucherungen“ am „deutschen Volkskörper“ loswerden will',
         'src': 'http://www.deutschlandfunk.de/rede-ueber-linke-studenten-afd-vorstand-befasst-sich-mit.1773.de.html?dram:article_id=379183'
       }
     ]
@@ -295,7 +298,7 @@ const data = [
     'name': 'Jongen',
     'additions': [
       {
-        'text': 'der Verschwörungstheorien zu "Mischbevölkerungen" zitiert',
+        'text': 'der Verschwörungstheorien zu „Mischbevölkerungen“ zitiert',
         'src': 'http://www.sueddeutsche.de/politik/philosoph-marc-jongen-der-wutdenker-der-afd-1.2865813-2'
       }
     ]
@@ -365,7 +368,7 @@ const data = [
     'name': 'Hampel',
     'additions': [
       {
-        'text': 'der von "Asylwahn" und "Blockparteien" im Bundestag spricht',
+        'text': 'der von „Asylwahn“ und „Blockparteien“ im Bundestag spricht',
         'src': 'https://www.taz.de/!5241266/'
       }
     ]
@@ -375,7 +378,7 @@ const data = [
     'name': 'Röckemann',
     'additions': [
       {
-        'text': 'der von "Systemmedien" spricht',
+        'text': 'der von „Systemmedien“ spricht',
         'src': 'https://de-de.facebook.com/thomas.roeckemann/posts/1272919946186671'
       }
     ]
@@ -413,19 +416,19 @@ const data = [
         'src': 'http://www.tagesspiegel.de/politik/gaulands-mitstreiter-diese-rechten-will-die-afd-in-den-bundestag-schicken/20344126.html'
       },
       {
-        'text': 'der die Kanzlerin als "Merkelnutte" bezeichnet haben soll',
+        'text': 'der die Kanzlerin als „Merkelnutte“ bezeichnet haben soll',
         'src': 'http://www.spiegel.de/politik/deutschland/bundestag-wann-die-afd-beim-gedenken-an-auschwitz-befreiung-nicht-klatschte-a-1190774.html'
       },
       {
-        'text': 'der vom "Volkskörper" spricht',
+        'text': 'der vom „Volkskörper“ spricht',
         'src': 'http://www.spiegel.de/politik/deutschland/peter-boehringer-e-mail-bringt-afd-mann-in-erklaerungsnot-a-1192686.html'
       },
       {
-        'text': 'der Einwanderung als "Genozid" bezeichnet',
+        'text': 'der Einwanderung als „Genozid“ bezeichnet',
         'src': 'http://www.spiegel.de/politik/deutschland/peter-boehringer-e-mail-bringt-afd-mann-in-erklaerungsnot-a-1192686.html'
       },
       {
-        'text': 'der das Bundesverfassungsgericht als "Hure Justizia" bezeichnet',
+        'text': 'der das Bundesverfassungsgericht als „Hure Justizia“ bezeichnet',
         'src': 'http://www.spiegel.de/politik/deutschland/peter-boehringer-erneut-schmaeh-e-mail-mit-afd-mann-als-absender-a-1196379.html'
       }
     ]
@@ -453,7 +456,7 @@ const data = [
         'src': 'http://www.tagesspiegel.de/themen/reportage/rechte-vor-einzug-in-den-bundestag-so-extrem-sind-die-kandidaten-der-afd/20350578.html'
       },
       {
-        'text': 'der Mitglied bei der islamfeindlichen Partei "Die Freiheit" war',
+        'text': 'der Mitglied bei der islamfeindlichen Partei „Die Freiheit“ war',
         'src': 'https://www.swr.de/swraktuell/diewahlbeiuns/rp/portraet-sebastian-muenzenmaier-afd-junges-konsens-kandidat/-/id=13075562/did=19140180/nid=13075562/tsun8l/index.html'
       }
     ]
@@ -463,7 +466,7 @@ const data = [
     'name': 'Fest',
     'additions': [
       {
-        'text': 'der Gastarbeiter als "Gesindel" bezeichnet',
+        'text': 'der Gastarbeiter als „Gesindel“ bezeichnet',
         'src': 'http://www.tagesspiegel.de/berlin/afd-bundestagskandidat-anzeige-gegen-nicolaus-fest-wegen-volksverhetzung/19600292.html'
       },
       {
@@ -477,7 +480,7 @@ const data = [
     'name': 'Hilse',
     'additions': [
       {
-        'text': 'der hinter der Ehe für alle "Strippenzieher im Hintergrund" vermutet',
+        'text': 'der hinter der Ehe für alle „Strippenzieher im Hintergrund“ vermutet',
         'src': 'http://www.tagesspiegel.de/themen/reportage/rechte-vor-einzug-in-den-bundestag-so-extrem-sind-die-kandidaten-der-afd/20350578.html'
       }
     ]
@@ -497,7 +500,7 @@ const data = [
     'name': 'Renner',
     'additions': [
       {
-        'text': 'der von einer "Schuldkult-Hypermoralisierung" in Deutschland spricht',
+        'text': 'der von einer „Schuldkult-Hypermoralisierung“ in Deutschland spricht',
         'src': 'http://www.rundschau-online.de/politik/rechtsruck-bei-der-afd-martin-renner-wird-spitzenkandidat-fuer-die-bundestagswahl-25918682'
       }
     ]
@@ -515,11 +518,11 @@ const data = [
         'src': 'https://kreuzer-leipzig.de/2016/05/24/wie-viel-pegida-partei-will-die-afd-sein/'
       },
       {
-        'text': 'der die "Volksbewaffnung" gegen "Koransprengköpfe" fordert',
+        'text': 'der die „Volksbewaffnung“ gegen „Koransprengköpfe“ fordert',
         'src': 'https://www.welt.de/print/die_welt/politik/article170243604/Siegbert-der-Starke-im-AfD-Wunderland.html'
       },
       {
-        'text': 'der mit der Hand auf seinem Herzen vor Hitlers Wolfsschanze posierte',
+        'text': 'der mit der Hand auf seinem Herzen vor Hitlers Wolfsschanze posiert',
         'src': 'https://www.facebook.com/photo.php?fbid=1942944496024822&set=pcb.1942945666024705&type=3&theater'
       }
     ]
@@ -529,7 +532,7 @@ const data = [
     'name': 'Kotré',
     'additions': [
       {
-        'text': 'laut dem Herkunft und "Vergewaltigerpotenzial" direkt zusammenhängen',
+        'text': 'laut dem Herkunft und „Vergewaltigerpotenzial“ direkt zusammenhängen',
         'src': 'http://www.berliner-zeitung.de/berlin/die-abgeordneten-der-afd-sammelbecken-der-unzufriedenen-221000'
       }
     ]
@@ -539,7 +542,7 @@ const data = [
     'name': 'Spangenberg',
     'additions': [
       {
-        'text': 'der Mitglied der rechtsextremen Wählervereinigung "Arbeit, Familie, Vaterland" war',
+        'text': 'der Mitglied der rechtsextremen Wählervereinigung „Arbeit, Familie, Vaterland“ war',
         'src': 'http://www.spiegel.de/politik/deutschland/afd-in-sachsen-kein-amt-fuer-abgeordneten-mit-rechter-vergangenheit-a-989731.html'
       }
     ]
@@ -549,7 +552,7 @@ const data = [
     'name': 'Oehme',
     'additions': [
       {
-        'text': 'der mit einem SA-Spruch zur Bundestagswahl geworben hatte',
+        'text': 'der mit einem SA-Spruch zur Bundestagswahl wirbt',
         'src': 'http://www.zeit.de/politik/deutschland/2017-09/afd-kandidaten-bundestagswahl-abgeordnete'
       }
     ]
@@ -559,7 +562,7 @@ const data = [
     'name': 'Müller',
     'additions': [
       {
-        'text': 'der Migration nach Deutschland als "organisierte Invasion" bezeichnet',
+        'text': 'der Migration nach Deutschland als „organisierte Invasion“ bezeichnet',
         'src': 'https://www.youtube.com/watch?time_continue=2&v=pI03Ar7SmkA'
       }
     ]
@@ -579,7 +582,7 @@ const data = [
     'name': 'Brandner',
     'additions': [
       {
-        'text': 'der politische Gegner als "Ergebnis von Sodomie und Inzucht" bezeichnet',
+        'text': 'der politische Gegner als „Ergebnis von Sodomie und Inzucht“ bezeichnet',
         'src': 'https://www.noz.de/deutschland-welt/politik/artikel/955751/wie-rechts-ist-die-afd'
       }
     ]
@@ -589,7 +592,7 @@ const data = [
     'name': 'Gottschalk',
     'additions': [
       {
-        'text': 'der dazu aufrief, türkische Geschäfte zu boykottieren',
+        'text': 'der zum Boykott türkischer Geschäfte aufruft',
         'src': 'http://www.rp-online.de/nrw/staedte/krefeld/krefeld-kay-gottschalk-afd-ruft-zu-boykott-tuerkischer-geschaefte-auf-aid-1.7345603'
       }
     ]
@@ -599,7 +602,7 @@ const data = [
     'name': 'Kramer',
     'additions': [
       {
-        'text': 'der die SS-Leibstandarte Adolf Hitler "nicht grundsätzlich scheiße" findet',
+        'text': 'der die SS-Leibstandarte Adolf Hitler „nicht grundsätzlich scheiße“ findet',
         'src': 'https://www.ndr.de/nachrichten/mecklenburg-vorpommern/Fragwuerdiges-SS-Foto-in-AfD-Chat-verschickt,afd1592.html'
       },
       {
@@ -613,12 +616,22 @@ const data = [
     'name': 'Arppe',
     'additions': [
       {
-        'text': 'der dafür wirbt, im Fall des Scheiterns der AfD "einen Schrank voller Gewehre und eine Munitionskiste in der Garage" zu haben',
-        'src': 'https://www.ndr.de/nachrichten/mecklenburg-vorpommern/Rassistische-Chats-Fraktionsvize-verlaesst-AfD,afd1204.html'
+        'text': 'der dafür wirbt, im Fall des Scheiterns der AfD „einen Schrank voller Gewehre und eine Munitionskiste in der Garage“ zu haben',
+        'src': 'https://www.welt.de/politik/deutschland/article176353087/Holger-Arppe-AfD-Politiker-wegen-Volksverhetzung-verurteilt.html'
       },
       {
-        'text': 'der die "widerlichen grünen Bolschewisten" eine Grube ausheben, alle rein und Löschkalk oben drauf',
-        'src': 'https://www.ndr.de/nachrichten/mecklenburg-vorpommern/Rassistische-Chats-Fraktionsvize-verlaesst-AfD,afd1204.html'
+        'text': 'der für die „widerlichen grünen Bolschewisten“ eine Grube ausheben, alle rein und Löschkalk oben drauf möchte',
+        'src': 'https://www.focus.de/politik/deutschland/holger-arppe-afd-politiker-traeumt-von-apartheid-staat-und-fallbeil-fuer-rotgruenes-geschmeiss_id_7538862.html'
+      }
+    ]
+  },
+  {
+    'forename': 'Markus',
+    'name': 'Söder',
+    'additions': [
+      {
+        'text': 'der sich gerne in die Berichterstattung des ZDF einmischt',
+        'src': 'http://www.spiegel.de/politik/deutschland/markus-soeder-intervenierte-mehrfach-beim-zdf-a-865136.html'
       }
     ]
   }
