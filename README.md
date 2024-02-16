@@ -1,9 +1,6 @@
 # Kontext - Chrome/Firefox Browser Extension
-Browser extension that adds context to certain German politicians.
 
-<p align="center">
-  <img src="https://kontext.fyi/kontext-example.jpg" alt="kontext-example" />
-</p>
+Browser extension that adds context to certain German politicians.
 
 Also available at
 
