@@ -1,15 +1,15 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Kontext",
-  "description": "Eine Browser-Extension, die Zusatzinformationen zu bestimmten Politikern in Webseiten einfügt.",
-  "version": "2.3",
+  "description": "Eine Browser-Extension, die Zusatzinformationen zu bestimmten Politiker*innen in Webseiten einfügt.",
+  "version": "3.0",
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
       "js": ["src/settings.js", "src/data.js", "src/content.js"]
     }
   ],
-  "browser_action": {
+  "action": {
     "default_icon": "icons/icon48.png",
     "default_popup": "src/popup.html",
     "default_title": "Kontext"
@@ -19,10 +19,9 @@
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "permissions": [
-    "storage"
-  ],
-  "applications": {
+  "permissions": ["storage"],
+  "host_permissions": [],
+  "browser_specific_settings": {
     "gecko": {
       "id": "{5917ded4-5f46-4a62-94b6-8802b982012c}"
     }
