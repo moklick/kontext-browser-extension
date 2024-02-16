@@ -2,6 +2,9 @@
 
 Browser extension that adds context to certain German politicians.
 
+![kontext-example_highlighted](https://github.com/moklick/kontext-browser-extension/assets/2857535/0c8278a1-6a33-4428-9d71-02c9ebb9b6b8)
+
+
 Also available at
 
 [Chrome Webstore](https://chrome.google.com/webstore/detail/kontext/mfphpdgjngbopfjgbpkeablkjhlohmkb?hl=de)
