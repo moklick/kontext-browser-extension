@@ -1,9 +1,15 @@
-const getRandomAddition = item => item.additions[Math.floor(item.additions.length * Math.random())];
+const getRandomAddition = (item) =>
+  item.additions[Math.floor(item.additions.length * Math.random())];
 
 // via http://stackoverflow.com/questions/10730309/find-all-text-nodes-in-html-page#answer-10730777
 function findTextNodes(el) {
   const nodes = [];
-  const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null, false);
+  const walker = document.createTreeWalker(
+    el,
+    NodeFilter.SHOW_TEXT,
+    null,
+    false
+  );
   while (walker.nextNode()) {
     nodes.push(walker.currentNode);
   }
@@ -12,17 +18,26 @@ function findTextNodes(el) {
 
 function generateLink(src) {
   const link = document.createElement('a');
+
   link.href = src;
   link.target = 'context-source';
   link.rel = 'noopener noreferrer';
   link.title = 'Quelle für diesen Kontext';
-  link.style.cssText = 'text-decoration:underline;color:inherit;cursor:pointer;opacity:.5';
+  link.style.cssText =
+    'text-decoration:underline;color:inherit;cursor:pointer;opacity:.5';
   link.textContent = '*';
+
   return link;
 }
 
 function makeBerndGreatAgain(nodes) {
-  nodes.forEach(node => (node.textContent = node.textContent.replace(/Björn Höcke/g, 'Bernd Höcke')));
+  nodes.forEach(
+    (node) =>
+      (node.textContent = node.textContent.replace(
+        /Björn Höcke/g,
+        'Bernd Höcke'
+      ))
+  );
 }
 
 // extend text content with extension sentences
@@ -44,28 +59,35 @@ function addAddition({ node, index }, item, highlight) {
 
 function main({ highlight, amount }) {
   const items = data
-    .filter(item => document.body.innerHTML.includes(`${item.forename} ${item.name}`))
-    .map(item => Object.assign(item, { regex: new RegExp(`\\b${item.name}\\b`, 'g') }));
+    .filter((item) =>
+      document.body.innerHTML.includes(`${item.forename} ${item.name}`)
+    )
+    .map((item) =>
+      Object.assign(item, { regex: new RegExp(`\\b${item.name}\\b`, 'g') })
+    );
 
   const textNodes = findTextNodes(document.body);
 
   const exemptRegex = RegExp(exemptions.join('|'), 'g');
   const exemptNodes = [];
-  textNodes.forEach(node => {
+  textNodes.forEach((node) => {
     let rx;
     while ((rx = exemptRegex.exec(node.textContent))) {
       exemptNodes.push({ node, start: rx.index, end: rx.index + rx[0].length });
     }
   });
 
-  items.forEach(item => {
+  items.forEach((item) => {
     const nameNodes = [];
-    textNodes.forEach(node => {
+    textNodes.forEach((node) => {
       let rx;
       while ((rx = item.regex.exec(node.textContent))) {
         if (
           !exemptNodes.some(
-            exNode => exNode.node === node && exNode.end > rx.index && exNode.start < rx.index + rx[0].length
+            (exNode) =>
+              exNode.node === node &&
+              exNode.end > rx.index &&
+              exNode.start < rx.index + rx[0].length
           )
         ) {
           nameNodes.push({ node, index: rx.index + rx[0].length });
@@ -86,11 +108,13 @@ function main({ highlight, amount }) {
         nameNodes
           .slice(0, 5)
           .sort((a, b) => b.index - a.index)
-          .forEach(node => addAddition(node, item, highlight));
+          .forEach((node) => addAddition(node, item, highlight));
         break;
 
       default:
-        nameNodes.reverse().forEach(node => addAddition(node, item, highlight));
+        nameNodes
+          .reverse()
+          .forEach((node) => addAddition(node, item, highlight));
         break;
     }
   });
