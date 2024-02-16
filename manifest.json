@@ -9,7 +9,7 @@
       "js": ["src/settings.js", "src/data.js", "src/content.js"]
     }
   ],
-  "browser_action": {
+  "action": {
     "default_icon": "icons/icon48.png",
     "default_popup": "src/popup.html",
     "default_title": "Kontext"
@@ -21,7 +21,7 @@
   },
   "permissions": ["storage"],
   "host_permissions": [],
-  "applications": {
+  "browser_specific_settings": {
     "gecko": {
       "id": "{5917ded4-5f46-4a62-94b6-8802b982012c}"
     }
